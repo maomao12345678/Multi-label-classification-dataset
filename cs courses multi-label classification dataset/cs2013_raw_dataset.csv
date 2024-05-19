@@ -1,0 +1,1732 @@
+course_id,course_text,label,KA_label
+CSCI 140,"This class covers basic techniques used to analyze problems and algorithms (including asymptotics, upper/lower bounds, best/average/worst case analysis, amortized analysis, complexity), basic techniques used to design algorithms (including divide & conquer / greedy / dynamic programming / heuristics, choosing appropriate data structures), and important classical algorithms (including sorting, string, matrix, and graph algorithms). The goal is for students to be able to apply all of the above to designing solutions for real-world problems.","SDF_Algorithms and Design
+AL_Basic Analysis
+AL_Algorithmic Strategies
+AL_Fundamental Data Structures and Algorithms
+AL--basic automata computability and complexity
+AL--advanced computational complexity
+AL--advanced data structures algorithms and analysis
+PD--parallel algorithms, analysis, and programming
+PD--formal models and semantics
+","SDF
+AL
+PD"
+COS 226,"Classical algorithms and data structures, with an emphasis on implementing them in modern programming environments, and using them to solve real-world problems. Particular emphasis is given to algorithms for sorting, searching, string processing, and graph algorithms. Fundamental algorithms in a number of other areas are covered as well, including geometric algorithms and some algorithms from operations research. The course concentrates on developing implementations, understanding their performance characteristics, and estimating their potential effectiveness in applications.
+Analysis of algorithms, with an emphasis on using the scientific method to validate hypotheses about algorithm performance.
+Data types, APIs, encapsulation.
+Linked data structures, resizing arrays, and implementations of container types such as stacks and queues. Sorting algorithms, including insertion sort, selection sort, shellsort, mergesort, randomized quicksort, heapsort.
+Priority queue data types and implementations, including binary heaps.
+Symbol table data types and implementations (searching algorithms), including binary search trees, red- black trees, and hash tables.
+Geometric algorithms (searching in point sets and intersection).
+Graph algorithms (breadth-first search, depth-first search, MST, shortest paths, topological sort, strong components, maxflow)
+Tries, string sorting, substring search, regular expression pattern matching. Data compression (Huffman, LZW).
+Reductions, combinatorial search, P vs. NP, and NP-completeness.
+","SDF--Algorithms and Design
+PL--Object-oriented programming
+SDF--Fundamental Data Structures
+AL--Basic Analysis
+AL--Algorithmic Strategies
+AL--Fundamental Data Structures and Algorithms
+AL--Basic Automata, Computability and Complexity
+AL--Advanced Automata, Computability and Complexity
+AL--Advanced Data Structures and Algorithms
+","SDF
+PL
+AL"
+CS 256,"Analysis: asymptotic analysis including lower bounds on sorting, recurrence relations and their solutions. Graphs: directed, undirected, planar, and bipartite.
+Greedy Algorithms: shortest paths, minimum spanning trees, and the union-find data structure (including amortized analysis).
+Divide and Conquer Algorithms: integer and matrix multiplication, the fast-fourier transform. Dynamic Programming: matrix parenthesization, subset sum, RNA secondary structure, DP on trees. Network Flow: Max-Flow, Min-Cut (equivalence, duality, algorithms).
+Randomization: randomized quicksort, median, min-cut, universal hashing, skip lists. String Algorithms: string matching, suffix trees and suffix arrays.
+Complexity Theory: Complexity classes, reductions, and approximation algorithms.
+","AL--Basic Analysis
+AL--Algorithmic Strategies
+AL--Fundamental Data Structures and Algorithms
+AL--Basic Automata, Computability and Complexity
+AL--Advanced Data Structures, Algorithms and Analysis
+DS--Discrete Probability
+","AL
+DS"
+CSE332,"The core of this course is fundamental “classical” data structures and algorithms including balanced trees, hashtables, sorting, priority queues, graphs and graph algorithms like shortest paths, etc. The course includes asymptotic complexity (e.g., big-O notation). The course also includes an introduction to concurrency and parallelism grounded in the data structure material. Concurrent access to shared data motivates mutual exclusion. Independent subcomputations (e.g., recursive calls to mergesort) motivate parallelism and cost models that account for time-to-completion in the presence of parallelism.
+More general goals of the course include (1) exposing students to non-obvious algorithms (to make the point that algorithm selection and design is an important and non-trivial part of computer science & engineering) and (2) giving students substantial programming experience in a modern high-level programming language such as Java (to continue developing their software-development maturity).
+Asymptotic complexity, algorithm analysis, recurrence relations Review of stacks, queues, and binary search trees (covered in CS2) Priority queues and binary heaps
+Dictionaries and AVL trees, B trees, and hashtables
+Insertion sort, selection sort, heap sort, merge sort, quicksort, bucket sort, radix sort Lower bound for comparison sorting
+Graphs, graph representations, graph traversals, topological sort, shortest paths, minimum spanning trees Simple examples of amortized analysis (e.g., resizing arrays)
+Introduction to multiple explicit threads of execution Parallelism via fork-join computations
+Basic parallel algorithms: maps, reduces, parallel-prefix computations Parallel-algorithm analysis: Amdahl’s Law, work, span
+Concurrent use of shared resources, mutual exclusion via locks
+Data races and higher-level race conditions Deadlock
+Condition variables
+","AL--Basic Analysis
+AL--Fundamental Data Structures and Algorithms
+AL--Advanced Data Structures Algorithms and Analysis
+DS--Graphs and Trees
+PD--Parallelism Fundamentals
+PD--Parallel Decomposition
+PD--Communication and Coordination
+PD--Parallel Algorithms, Analysis, and Programming
+SDF--Fundamental Data Structures
+","AL
+DS
+PD
+SDF"
+CS/ECE 552,"The goal of the course is to teach the design and operation of a digital computer. It serves students in two ways. First, for those who want to continue studying computer architecture, embedded systems, and other low-level aspects of computer systems, it lays the foundation of detailed implementation experience needed to make the quantitative tradeoffs in more advanced courses meaningful. Second, for those students interested in other areas of computer science, it solidifies an intuition about why hardware is as it is and how software interacts with  hardware.
+The subject matter covered in the course includes technology trends and their implications, performance measurement, instruction sets, computer arithmetic, design and control of a datapath, pipelining, memory hierarchies, input and output, and brief introduction to multiprocessors.
+The full list of course topics is:
+Introduction and Performance Technology trends Measuring CPU performance
+Amdahl’s law and averaging performance metrics
+Instruction Sets
+Components of an instruction set
+Understanding instruction sets from an implementation perspective RISC and CISC and example instruction sets
+Computer Arithmetic
+Ripple carry, carry lookahead, and other adder designs ALU and Shifters
+Floating-point arithmetic and floating-point hardware design
+Datapath and Control
+Single-cycle and multi-cycle datapaths
+Control of datapaths and implementing control finite-state machines
+Pipelining
+Basic pipelined datapath and control
+Data dependences, data hazards, bypassing, code scheduling Branch hazards, delayed branches, branch prediction
+Memory Hierarchies
+Caches (direct mapped, fully associative, set associative) Main memories
+Memory hierarchy performance metrics and their use Virtual memory, address translation, TLBs
+Input and Output
+Common I/O device types and characteristics
+Memory mapped I/O, DMA, program-controlled I/O, polling, interrupts Networks
+Multiprocessors
+Introduction to multiprocessors Cache coherence problem","AR--Introductory Material and Performance
+AR--Instruction Set Architecture
+AR--Computer Arithmetic
+AR--Datapath and Control
+AR--Pipelined Datapaths and Control
+AR--Memory Hierarchies
+AR--Input and Output
+AR--Multiprocessors
+",AR
+CS150,"Design of synchronous digital systems using modern tools and methodologies, in particular, digital logic synthesis tools, digital hardware simulation tools, and field programmable gate array architectures.
+Understand the principles and methodology of digital logic design at the gate and switch level, including both combinational and sequential logic elements. Gain experience developing a relatively large and complex digital system. Gain experience with modern computer-aided design tools for digital logic design. Understand clocking methodologies used to control the flow of information and manage circuit state. Appreciate methods for specifying digital logic, as well as the process by which a high-level specification of a circuit is synthesized into logic networks. Appreciate the tradeoffs between hardware and software implementations of a given function.
+Appreciate the uses and capabilities of a modern FPGA platform.
+","AR--Digital Logic and Digital Systems
+AR--Assembly Level Machine Organization
+AR--Memory System Organization and Architecture
+AR--Interfacing and Communication
+AR--Performance Enhancements
+",AR
+CC152,"Historical Perspectives: RISC vs. CISC, Pipelining, Memory Hierarchy, Virtual Memory, Complex Pipelines and Out-of-Order Execution, Superscaler and VLIW Architecture, Synchronization, Cache Coherency.
+The course is intended to provide a foundation for students interested in performance programming, compilers,   and operating systems, as well as computer architecture and engineering. Our goal is for you to better understand how software interacts with hardware, and to understand how trends in technology, applications, and economics drive continuing changes in the field. The course will cover the different forms of parallelism found in applications (instruction-level, data-level, thread-level, gate-level) and how these can be exploited with various architectural features. We will cover pipelining, superscalar, speculative and out-of-order execution, vector machines, VLIW machines, multithreading, graphics processing units, and parallel microprocessors. We will also explore the design of memory systems including caches, virtual memory, and DRAM. An important part of the course is a series of  lab assignments using detailed simulation tools to evaluate and develop architectural ideas while running real applications and operating systems. Our objective is that you will understand all the major concepts used in  modern microprocessors by the end of the semester.","AR--Assembly Level Machine Organization
+AR--Memory System Organization and Architecture
+AR--Interfacing and Communication
+AR--Functional Organization
+AR--Multprocessing and Alternative Architecture
+AR--Performance Enhancements
+",AR
+eScience,"eScience’s basic premise is that in addition to the two accepted scientific inquiry methods: theoretical/mathematical formulation and experimentation, computational simulation/modeling has become the third method for doing science. eScience introduces the application of computational methods to scientific exploration and discovery in the social and natural sciences. Both the class and the laboratory include a broad range of well-defined experiments, verified data inputs, predictable/repeatable outcomes, and open questions to be explored. We begin with an Introduction to eScience, Scientific Method, and Models. Thereafter, we have weekly topics including Spread of Epidemics, Spread of Fire, Movement of Ants and Problem Solving, Predator-prey relationships,Altruism/Collaboration/Competition, Economics, Art and Music, Climate Change, E. coli metabolism of lactose, Cancer and Tumors, Games, Complex Systems and Chaos, Networks, and Fractals. Both theory and practice of computational simulation and modeling techniques are examined as tools to support the scientific method. No computer programming knowledge or calculus is required. By popular student demand, Netlogo5 is predominantly used as the modeling tool for this course due to its ease of use and extensive library of relevant models. Such tools have the advantage of embodying principles of a systems approach to non-linear, self-organizing, and emergent phenomena that characterize most interesting problems that societies face today. They also offer a bottom-up approach to problem-solution and experimentation in a non-threatening way that does not require the knowledge of programming. At the same time, these tools also provide more adventurous students with the opportunity to modify the natural language-like computer code to test their own ideas about modeling the societal challenge under consideration.
+The first lesson of the week uncovers the nature of the societal problem targeted in that particular knowledge unit. The second lesson of the week offers examples of computer-based simulations and models of the problem. The lessons are followed by a laboratory  session that uses well-defined protocols to guide students through hands-on exploration of computer simulations and models. In the Spring 2013 semester we introduced the use of Audience Response Systems6 (clickers) for quizzes at the end of each lesson or topic; each quiz consisted of four to five questions about the current topic plus one or two review questions from previous topics. We also experimented with “flipped classroom” methods during some of the clicker quizzes. 
+Rate of Change, Constrained Growth, Unconstrained Growth and Decay, Drug Dosage, Modeling Falling and Skydiving, Competition, Spread of SARS, Predator-Prey, Errors, Euler's Method, Runge-Kutta Method, Empirical Models, Simulations, Area Through Monte Carlo Simulation, Random Walk, Spreading of Fire, and Movement of Ants. We used Mathematica8 and Vensim9 for lab experiments.
+These methods and tools include the science of complexity, the science of networks, fractals, chaos theory, problem solving techniques, and game theory.","CN--Fundamentals
+CN--Modeling and Simulation
+IS--Agents
+","CN
+IS"
+COSC/MATH 201,"The modeling process
+Two system dynamics tool tutorials
+System dynamics problems with rate proportional to amount: unconstrained growth and decay, constrained growth, drug dosage
+System dynamics models with interactions: competition, predator-prey models, spread of disease models Computational error
+Simulation techniques: Euler's method, Runge-Kutta 2 method
+Additional system dynamics projects throughout, such as modeling falling and skydiving, enzyme kinetics, the carbon cycle, economics and fishing
+Six computational toolbox tutorials Empirical models
+Introduction to Monte Carlo simulations Cellular automaton random walk simulations
+Cellular automaton diffusion simulations: spreading of fire, formation of biofilms
+High-performance computing: concurrent processing, parallel algorithms
+Additional cellular automaton simulations throughout such as simulating polymer formation, solidification, foraging, pit vipers, mushroom fairy rings, clouds
+","CN--Introduction to Modeling and Simulation
+CN--Modeling and Simulation
+CN--Processing
+CN--Interactive Visualization
+GV--Fundamental Concepts
+SDF--Development Methods
+IS--Agents
+SE--Software Design
+","CN
+GV
+SDF
+IS
+SE"
+MAT 267,"This course will develop advanced mathematics skills appropriate for students pursuing STEM studies such as Engineering, Science, Computer Science, and Mathematics. Topics include sets, numbers, algorithms, logic, computer arithmetic, applied modern algebra, combinations, recursion principles, graph theory, trees, discrete probability, and digraphs.","DS--Sets, Relations, Functions
+DS--Basic Logic
+DS--Proof Techniques
+DS--Basics of Counting
+DS--Graphs and Trees
+DS--Discrete Probability
+",DS
+CS103,"Sets
+Functions and Relations
+Proof techniques (including direct, contradiction, diagonalization and induction) Graphs
+Logic (proposition and predicate) Finite Automata (DFAs, NFAs, PDAs) Regular and Context-Free Languages Turing Machines
+Complexity Classes (P, NP, Exp) NP-Completeness
+Counting
+Combinations and Permutations
+Probability (including conditional probability, independence, and conditional independence) Expectation and Variance
+Covariance and Correlation
+Discrete distributions (including Binomial, Negative Binomial, Poisson, and Hypergeometric) Continuous distributions (including Uniform, Normal, Exponential, and Beta) Limit/Concentration results (including Central Limit Theorem, Markov/Chebyshev bounds) Parameter estimation (including maximum likelihood and Bayesian estimation)
+Classification (including Naive Bayes Classifier and Logistic Regression) Simulation
+","DS--Proof Techniques
+DS--Basic Logic
+DS--Discrete Probability
+AL--Basic Automata, Computability and Complexity
+DS--Basics of Counting
+DS--Sets, Relations, Functions
+DS--Graphs and Trees
+IS--Basic Machine Learning
+","DS
+AL
+IS"
+CS 250,"Introduction to the Peano Axioms and construction of the natural numbers, integer numbers, rational numbers, and real numbers.
+Construction and basic properties of monoids, groups, rings, fields, and vector spaces.  Introduction to transfinite ordinals and transfinite cardinals, and Cantor’s diagonalization methods Representation of large finite natural numbers using Knuth’s “arrow notation”
+Introduction to first order propositional logic, logical equivalence, valid and invalid arguments Introduction to digital circuits
+Introduction to first order monadic predicate logic, universal and existential quantification, and predicate arguments
+Elementary number theory, prime factors, Euclid’s algorithm Finite arithmetic, Galois Fields, and RSA encryption
+Proof techniques, including direct and indirect proofs, proving universal statements, proving existential statements, proof forms, common errors in proofs
+Sequences, definite and indefinite series, recursive sequences and series Developing and validating closed-form solutions for series
+Well ordering and mathematical induction Introduction to proving algorithm correctness
+Second order linear homogeneous recurrence relations with constant coefficients General recursive definitions and structural induction
+Introduction to classical (Cantor) set theory, Russell’s Paradox, introduction to axiomatic set theory (Zermelo-Fraenkel with Axiom of Choice).
+Set-theoretic proofs Boolean algebras Halting Problem
+","AL--Basic Analysis
+DS--Basic Logic
+DS--Proof Techniques
+DS--Basics of Counting
+DS--Sets, Relations, Functions
+","DS
+AL
+IS"
+CS 251,"Set-based theory of functions, Boolean functions Injection, surjection, bijection
+Function composition
+Function cardinality and computability General set relations
+Equivalence relations Total and partial orderings
+Basic counting techniques: multiplication rule, addition rule, Dirichlet’s Box Principle Combinations and permutations
+Pascal’s Formula and the Binomial Theorem Kolmogorov Axioms and expected value Markov processes
+Conditional probability and Bayes’ Theorem Classical graph theory: Euler and Hamilton circuits Introduction to spectral graph theory, isomorphisms Trees, weighted graphs, spanning trees
+Algorithm analysis Formal languages Regular expressions Finite-state automata
+","AL--Basic Analysis
+DS--Sets, Relations, and Functions
+DS--Basics of Counting
+DS--Graphs and Trees
+DS--Discrete Probability
+AL--Basic Automata Computability and Complexity
+","AL
+DS"
+CS 175,"Shader-based OpenGL programming Coordinate systems and transformations Quaternions and the Arcball interface Camera modeling and projection
+OpenGL fixed functionality including rasterization Material simulation
+Basic and advanced use of textures including shadow mapping Image sampling including alpha matting
+Image resampling including mip-maps Human color perception
+Geometric representations Physical simulation in animation Ray tracing
+","GV--Fundamental Concepts
+GV--Basic Rendering
+GV--Geometric Modeling
+SDF--Development Methods
+AR--Performance enhancements
+CN--Modeling and Simulation
+SE--Tools and Environments
+SE--Software Design
+","GV
+SDF
+AR
+CN
+SE"
+CS371,"Computer graphics and its place in computer science Surface modeling
+Light modeling
+The Rendering Equation Ray casting
+Surface scattering (BSDFs) Spatial data structures Photon  mapping Refraction
+Texture Mapping Transformations Rasterization
+The graphics pipeline GPU architecture
+Film production and effects Deferred shading
+Collision detection Shadow maps
+","GV--Fundamental Concepts
+GV--Basic Rendering
+GV--Geometric Modeling
+SDF--Development Methods
+AR--Performance enhancements
+CN--Modeling and Simulation
+SE--Tools and Environments
+SE--Software Design
+","GV
+SDF
+AR
+CN
+SE"
+Human Aspects of Computer Science,"Experimental design and data representation
+Inferential statistics Writing up experiments User-Centered Design
+Developing requirements through personas and scenarios Conceptual design, interface design
+Prototyping: lo-fi and paper Visual Design
+Evaluation techniques: heuristics, cognitive walkthrough, experiments
+Human-Computer Interaction","HCI--Foundations
+HCI--Designing Interaction
+HCI--Programming Interactive Systems
+HCI--User-Centered Design and Testing
+HCI--Statistical methods for HCI
+",HCI
+FIT3063,"This unit provides a detailed understanding of the underpinning theories, principles and practices of interface design for computer-based systems. It examines issues in the design of system interfaces from a number of perspectives: user, programmer, designer. It explores the application of the relevant theories in practice. The unit will cover topics such as methods and tools for developing effective user interfaces, evaluation methods such as the conduct of usability and heuristic evaluations, design of appropriate interface elements including the design of menus and other interaction styles. The unit also focuses on designing for a diverse range of users and environments.
+Background and motivation for HCI Human factors
+Theoretical foundations: theories, models, principles, standards, guidelines Interface design elements
+Interface design: methods and principles Interface design: data gathering and task analysis Interaction styles
+Usability Accessibility Interaction devices Future of HCI
+","HCI--Foundations
+HCI--Designing Interaction
+HCI--User-Centered Design & Testing
+HCI--New Interactive Technologies
+HCI--Mixed, Augmented and Virtual Reality
+",HCI
+CO328,"This module provides an introduction to human-computer interaction. Fundamental aspects of human physiology  and psychology are introduced and key features of interaction and common interaction styles delineated. A variety   of analysis and design methods are introduced (e.g., GOMS, heuristic evaluation, user-centred and contextual design techniques). Throughout the course, the quality of design and the need for a professional, integrated and user- centered approach to interface development is emphasized. Rapid and low-fidelity prototyping feature as one aspect of this.
+Evaluating interfaces: heuristic evaluation, GOMS Evaluation Data & Empirical Data
+Lo-fi Prototyping
+Color, Vision & Perception
+Some Features of Human Memory Errors
+Controls, widgets, icons & symbols Elements of visual design Documentation
+","HCI--Foundations
+HCI--Designing Interaction
+HCI--User-Centered Design and Testing
+",HCI
+Human Computer Interaction,"The goal is to present HCI as a discipline that is concerned with technical advance, and that must integrate different disciplinary perspectives. Fundamental theoretical issues deal with principles of human perception, visual representation and purposeful action, discussed in the context of novel interactive technologies. Building on a first year course in professional software design, the course ends with an overview of systematic approaches to the design and analysis of user interfaces.
+propose design approaches that are suitable to different classes of user and application; identify appropriate techniques for analysis and critique of user interfaces;
+be able to design and undertake quantitative and qualitative studies in order to improve the design of interactive systems;
+understand the history and purpose of the features of contemporary user interfaces.
+The scope and challenges of HCI and Interaction Design. Visual representation
+Text and gesture interaction Inference-based approaches
+Augmented reality and tangible user interfaces Usability of programming languages
+User-centered design research Usability evaluation methods
+","HCI--Foundations
+HCI--Designing Interactions
+HCI--User-Centered Design and Testing
+HCI--New Interactive Technologies
+HCI--Design-Oriented HCI
+",HCI
+Human-Computer Interaction,"Short-form description: Helping you build human-centered design skills, so that you have the principles and methods to create excellent interfaces with any technology.
+Long-form description: In this course, you will learn how to design technologies that bring people joy, rather than frustration. You'll learn several techniques for rapidly prototyping and evaluating multiple interface alternatives -- and why rapid prototyping and comparative evaluation are essential to excellent interaction design. You'll learn how to conduct fieldwork with people to help you get design ideas. How to make paper prototypes and low-fidelity mockups that are interactive -- and how to use these designs to get feedback from other stakeholders like your teammates, clients, and users. You'll learn principles of visual design so that you can effectively organize and  present information with your interfaces. You'll learn principles of perception and cognition that inform effective interaction design. And you'll learn how to perform and analyze controlled experiments online. In many cases, we'll use Web design as the anchoring domain. A lot of the examples will come from the Web, and we'll talk just a bit about Web technologies in particular. When we do so, it will be to support the main goal of this course, which is helping you build human-centered design skills, so that you have the principles and methods to create excellent interfaces with any technology.
+","HCI--Foundations
+HCI--Designing Interaction
+HCI--User-centered design & testing
+HCI--Statistical Methods for HCI
+",HCI
+Human Information Processing (HIP),"Senses: Short term sensory memory – receptors – stimuli; Perception;
+Attention;
+Memory: Long-term memory – working memory; Mental models;
+Intention: Decision making and response selection;
+Action: Response execution (motion or behavior) – responses","CN--Interactive Visualization
+GV--Fundamental Concepts
+HCI--Foundations
+","CN
+GV
+HCI"
+Software and Interface Design,"This course introduces principles and methods for the design of software systems in professional contexts. The whole of the software development lifecycle is considered, but with special emphasis on user-centered design, including approaches to capture and analysis of user requirements, iterative prototyping and testing of interactive systems.
+The goal is to present HCI as a discipline that is concerned with technical advance, and that must integrate different disciplinary perspectives. Fundamental theoretical issues deal with principles of human perception, visual representation and purposeful action, discussed in the context of novel interactive technologies. Building on a first year course in professional software design, the course ends with an overview of systematic approaches to the design and analysis of user interfaces.
+undertake system design in a methodical manner
+proceed from a general system or product requirement to a design that addresses user needs develop design models and prototypes in an iterative manner recognizing managerial risks evaluate interactive systems, including identification and correction of faults.
+Mental models, leading to gulfs of execution and evaluation. Observing and describing the needs of users in context Methods for iterative modelling and prototyping
+Observational and experimental methods for usability evaluation
+","HCI--Foundations
+HCI--Designing Interactions
+HCI--User-Centered Design and Testing
+",HCI
+CS-475,"This course covers the fundamental concepts and practical applications of computing systems security with a holistic view and an applied approach. Topics include: security concepts and services, physical, operational, and organizational security, the role of people in systems security, introduction to cryptography and public key infrastructure, computing systems hardening, secure code, and secure applications development.
+The course emphasis is on developing, deploying, and maintaining a secure computing infrastructure with a hands- on approach.","AR--Machine-level representation of data
+HCI--Human Factors and Security
+IAS--Foundational Concepts in Security
+IAS--Principles of Secure Design
+IAS--Defensive Programming
+IAS--Threats and Attacks
+IAS--Network Security
+IAS--Cryptography
+IAS--Web Security
+IAS--Security Policy and Governance
+NC--Introduction
+NC--Networked Applications
+NC--Local Area Networks
+OS--Security and Protection
+PL--Language Translation and Execution
+SP--Security Policies, Laws, and Computer Crimes
+","AR
+HCI
+IAS
+NC
+OS
+PL
+SP"
+CS430,"Introduction to DBMS concepts 
+Data modeling and database design 
+Relational database design
+Query languages 
+Storage and indexing 
+Query processing 
+Transaction processing 
+Recovery","IM--Information Management Concepts
+IM--Database Systems
+IM--Data Modeling
+IM--Relational Databases
+IM--Query Languages
+IM--Indexing
+IM--Physical Database Design
+IM--Transaction Processing
+IAS--Foundational Concepts
+IAS--Security Policy and Governance
+","IM
+IAS"
+CSE 262,"Formulate and defend a position on an ethical question related to technology.
+Describe the main ethical challenges currently posed by technology.
+Describe the results of group discussion on ethical issues as a consensus position or mutually acceptable differences of opinion.
+Analyze a proposed course of action in the context of various cultures, communities, and countries.
+Demonstrate effective oral and written communication methods to explain a position on the social responsibilities of software developers and IT workers.
+Moral theories and reasoning. Includes applying utilitarianism, deontological ethics, and virtue ethics. Discussion of relativism and religious ethics. 
+Professional ethics. Includes definitions of “profession,” codes of ethics, and ACM-IEEE Software Engineering Code of Ethics and Professional Practice. 
+Privacy. Definitions of privacy, the role of computing in contemporary privacy dilemmas. 
+Intellectual and intangible property. Definitions of copyright, trademark, and patent, especially as they apply to computer applications and products. Fair use and other limitations to the rights of creators. Intangible property that is not “creative” in nature. 
+Trust, safety, and reliability. Causes of computer failure, case studies (including Therac-25). 
+Review and exams. 
+Public presentations of independent research projects.
+Effects of computing on society and personal identity. Social network analysis, Marshall McLuhan, bullying and trolling, crowd-sourced knowledge, cybernetics. 
+Democracy, freedom of speech, and computing. The First Amendment, protection of children, state censorship, corporate censorship, case studies.
+Computing and vulnerable groups. Case studies of effects of computing on prisoners, the elderly, the young, racial and ethnic minorities, religious minorities, people with disabilities, people with chronic diseases, developing countries, and so on. 
+Autonomous and pervasive technologies. Cases related to data surveillance, moral responsibility for autonomous systems, robots, and systems that function with little human oversight.","SP--Social Context
+SP--Analytical Tools
+SP--Professional Ethics
+SP--Intellectual Property
+SP--Privacy and Civil Liberties
+SP--Professional Communication
+SP--Sustainability
+SP--Economies of Computing
+SP--Security Policies, Laws and Computer Crimes
+HCI--Human Factors and Security
+HCI--Collaboration and Communication
+GV--Fundamental Concepts
+","SP
+HCI
+GV"
+CS 662,"An overview of AI, including search, knowledge representation, probabilistic reasoning and decision making under uncertainty, machine learning, and topics from NLP, information retrieval, knowledge engineering and multi-agent systems.","IS--Basic Search Strategies
+IS--Basic Knowledge Rep.
+IS--Basic Machine Learning
+IS--Adv. KR
+IS--Advanced Search
+IS--Reasoning Under Uncertainty
+IS--NLP
+",IS
+Intelligenza Artificiale (Artificial Intelligence),"INTRODUCTION TO AI. Historical outline of the discipline. Fundamental concepts. Main research areas and application fields.
+PROBLEM SOLVING AND SEARCH. State spaces and search methods. Non-informed and informed search strategies. Constraint satisfaction problems. Games and adversarial search.
+LOGIC AND REASONING. The use of propositional and first order logic for the representation of knowledge. Knowledge-based reasoning as logical deduction. Inference procedures (forward chaining, backward chaining, resolution).
+PLANNING. Plan formation and execution. The STRIPS model. Search in plan spaces. FOUNDATIONS OF AI. Some critical concepts and philosophical problems of AI.","IS--Fundamental Issues
+IS--Basic Search Strategies
+IS--Basic Knowledge Representation and Reasoning
+IS--Advanced Search
+IS--Advanced Representation and Reasoning
+",IS
+CMSC 471,"Course description: “This course will serve as an introduction to artificial intelligence concepts and techniques. We will use the Lisp programming language as a computational vehicle for exploring the techniques and their application. Specific topics we will cover include the history and philosophy of AI, Lisp and functional programming, the agent paradigm in AI systems, search, game playing, knowledge representation and reasoning, logical reasoning, uncertain reasoning and Bayes nets, planning, and machine learning. If time permits, we may also briefly touch on multi-agent systems, robotics, perception, and/or natural language processing.”","IS--Fundamental Issues
+IS--Basic Search Strategies
+IS--Basic Knowledge Representation and Reasoning
+IS--Basic Machine Learning
+IS--Advanced Search
+IS--Advanced Representation and Reasoning
+IS--Reasoning Under Uncertainty
+IS--Agents
+IS--Advanced Machine Learning
+PL--Functional Programming
+","IS
+PL"
+Introduction to Artificial Intelligence,"Problem solving with search: uninformed, informed search, search for optimization (hill climbing, simulated annealing, genetic algorithms), adversarial search (minimax, game trees)
+Logic and Planning: Propositional Logic, syntactic and model-based inference, first order logic (FOL), FOL inference complexity, unification and resolution, planning as FOL inference, STRIPS encoding, state space and plan space planning, partial order planning.
+Probability and Machine Learning: Axioms of probability, basic statistics (expectation and variance), inference by enumeration, Bayesian networks, inference through variable elimination and Monte Carlo, intro to supervised machine learning, probabilistic classification with naive Bayes, parameter estimation with maximum likelihood, Perceptrons, parameter estimation with gradient descent, evaluating algorithms with cross validation, confusion matrices and hypothesis testing.
+Decision making under uncertainty: Intro to sequential decision making, Markov decision processes, Bellman equation/optimality, value and policy iteration, model-based and model free reinforcement learning, temporal difference methods, Q learning, Function approximation.
+I also have one lecture on natural language processing with a very brief introduction to language models, information retrieval and question answering (Watson), but students are not evaluated on this material.","IS--Fundamental Issues
+IS--Basic Search Strategies
+IS--Basic Knowledge Representation and Reasoning
+IS--Basic Machine Learning
+IS--Advanced Search
+IS--Advanced Representation and Reasoning
+IS--Reasoning Under Uncertainty
+IS--Agents
+IS--Natural Language Processing
+IS--Advanced Machine Learning
+",IS
+CS188,"This course will introduce the basic ideas and techniques underlying the design of intelligent computer systems. A specific emphasis will be on the statistical and decision-theoretic modeling paradigm. By the end of this course, you will have built autonomous agents that efficiently make decisions in fully informed, partially observable and adversarial settings. Your agents will draw inferences in uncertain environments and optimize actions for arbitrary reward structures. Your machine learning algorithms will classify handwritten digits and photographs. The techniques you learn in this course apply to a wide variety of artificial intelligence problems and will serve as the foundation for further study in any application area you choose to pursue.
+Introduction to AI Search
+Constraint Satisfaction Game Playing
+Markov Decision Processes Reinforcement Learning Bayes Nets
+Hidden Markov Modeling Speech
+Neural Nets Robotics Computer Vision","IS--Fundamental Issues
+IS--Basic Search Strategies
+IS--Basic Knowledge Representation and Reasoning
+IS--Basic Machine Learning
+IS--Advanced Search
+",IS
+Introduction to Artificial Intelligence,"What is AI? Foundations of AI, History of AI. Intelligent Agents
+Agents and Environments, Structure of Agents. Problem Solving by Searching
+Problem Solving Agents, Searching for Solutions, Uninformed Search Strategies:
+Breadth-First Search, Depth-First Search, Depth-limited Search, Iterative Deepening Depth-first Search, Comparison of Uninformed Search Strategies.
+Informed Search and Exploration
+Informed (Heuristic) Search Strategies: Greedy Best-first Search, A* Search, Heuristic Functions, Local Search Algorithms, Optimization Problems.
+Constraint Satisfaction Problems
+Backtracking Search for CSPs, Local Search for CSPs. Adversarial Search
+Games, Minimax Algorithm, Alpha-Beta Pruning. Reasoning and Knowledge Representation
+Introduction to Reasoning and Knowledge Representation, Propositional Logic, First Order Logic, Semantic Nets, Other Knowledge Representation Schemes.
+Reasoning with Uncertainty & Probabilistic Reasoning
+Acting Under Uncertainty, Bayes’ Rule, Representing Knowledge in an Uncertain Domain, Bayesian Networks.
+Machine Learning
+Forms of Learning, Decision Trees and the ID3 Algorithm, Nearest Neighbor, Statistical Learning.","IS--Fundamental Issues
+IS--Basic Search Strategies
+IS--Advanced Search
+IS--Basic Knowledge Representation and Reasoning
+IS--Advanced Knowledge Representation and Reasoning
+IS--Reasoning Under Uncertainty
+IS--Basic Machine Learning
+",IS
+Computer Networks I,"The course covers various aspects of computer networking, including (1) application layer protocols such as HTTP and SMTP, (2) transport layer (TCP/UDP) and congestion control, (3) routing and IP, and (4) link layer access protocols including Ethernet and 802.11.
+Typical schedule:
+Week 1: Network architecture, layering, and protocols.
+Week 2: Principles of application-layer, application-layer protocols: FTP, SMTP, DNS. Week 3: HTTP, Web Caching and content delivery networks. Peer-to-peer applications. Week 4: Socket programming, introduction to transport layer protocols.
+Week 5: Principles of reliable transfer, TCP reliable transfer implementation.
+Week 6: TCP reliable transfer cont’d, RTT and timer, flow control, TCP connection management, state transition. Principles of congestion control.
+Week 7: TCP congestion control. TCP performance: response time. TCP throughput Week 8: Introduction to network layer. Inside a router.
+Week 9: IPv4 and IP Addressing. IPv6 and ICMP. Routing algorithms. Week 10: Internet routing architecture and protocols. Multicast routing. Week 11: Introduction to link layer. Multiple access protocols.
+Week 12: Aloha protocol, CSMA. Efficiency of CSMA/CD. Ethernet. Week 13: LAN addressing and ARP. ATM networks.
+Week 14: Wireless and mobile networks.","NC--Resource Allocation
+NC--Mobility
+",NC
+CS144,"CS144 is an introductory course on computer networking, specifiically the Internet. The course how the Internet works, ranging from how bits are modulated on wireless networks to application-level protocols like BitTorrent and HTTP. It also explains the principles of network design, such as layering, packet switching, and the end-to-end argument. Students implement a handful of low-level protocols and services, including reliable transport, IP forwarding, and a Network Address Translation device. Students gain experience reading and understanding  RFCs (Internet Protocol specifications) as statements oof what a system should do. The course grounds many of the concepts in current practice and recent developments, such as net neutrality and DNS security.","NC--Introduction
+NC--Networked Applications
+NC--Reliable Data Delivery
+NC--Routing and Forwarding
+NC--Local Area Networks
+NC--Resource Allocation
+NC--Mobility
+AR--Interfacing and Communication
+SF--Cross-Layer Communications
+SF--State and State Machines
+SF--Evaluation
+SF--Resource Allocation and Scheduling
+SF--Reliability through Redundancy
+","NC
+AR
+SF"
+Computer Networks,The description found in the course catalog says: This course explores the principles underlying the design of computer networks. We will examine techniques for transmitting information efficiently and reliably over a variety of communication media. We will look at the addressing and routing problems that must be solved to ensure that transmitted data gets to the desired destination. We will come to understand the impact that the distributed nature of all network problems has on their difficulty. We will examine the ways in which these issues are addressed by current networking protocols such as TCP/IP and Ethernet. Students will meet weekly with the instructor in pairs to present solutions to problem sets and reports evaluating the technical merit of current solutions to various networking problems.,"AR--Interfacing and Communication
+CN--Fundamentals
+DS--Discrete Probability
+IAS--Network Security
+IAS--Cryptography
+NC--Introduction
+NC--Networked Applications
+NC--Data Delivery
+NC--Routing and Forwarding
+NC--Local Area Networks
+NC--Resource Allocation
+NC--Mobility
+OS--Overview of Operating Systems
+SF--State-State Transition-State Machines
+SF--Parallelism
+SF--Resource Allocation and Scheduling
+SF--Reliability through Redundancy
+","AR
+CN
+DS
+IAS
+NC
+OS
+SF"
+CSCI 432,"This course explores the design and implementation of computer operating systems. Topics include historical   aspects of operating systems development, systems programming, process scheduling, synchronization of concurrent processes, virtual machines, memory management and virtual memory, I/O and file systems, system security, OS/architecture interaction, and distributed operating systems. The concepts in this course are not limited to any particular operating system or hardware platform. We discuss examples that are drawn from historically significant and modern operating systems including Unix, Windows, Mach, and the various generations of Mac OS.
+The objective of this course is threefold: to demystify the interactions between the software written in other courses and hardware, to familiarize students with the issues involved in the design and implementation of modern operating systems, and to explain the more general systems principles that are used in the design of all computer systems.","OS--Overview of Operating Systems
+OS--Operating System Principles
+OS--Concurrency
+OS--Device Management
+OS--File Systems
+OS--Fault Tolerance
+OS--Scheduling and Dispatch
+OS--Memory Management
+OS--Security and Protection
+OS--Virtual Machines
+PD--Communication and Coordination
+PD--Parallel Performance
+OS--System Performance Evaluation
+SF--Resource Allocation and Scheduling
+SF--Parallelism
+SF--Cross-Layer Communications
+SF--Virtualization and Isolation
+NC--Reliable Data Delivery
+NC--Networked Applications
+NC--Routing and Forwarding
+","PD
+SF
+OS
+NC"
+CS 420,"The course will study the basic concepts, design and implementation of operating systems. Topics to be covered include an overview of basic computing hardware components, operating system structures, process management, memory management, file systems, input/output systems, protection and security. The Windows and UNIX/Linux operating systems will be reviewed as implementation examples.
+Overview of an Operating System
+Computing Hardware Overview
+Process Management
+CPU Scheduling
+Deadlocks and Synchronization
+Memory Management
+File systems and storage
+Distributed Systems","OS--Overview of Operating Systems
+OS--Operating System Principles
+OS--Security and Protection
+OS--Real Time and Embedded Systems
+OS--Virtual Machines
+OS--Device Management
+OS--Scheduling and Dispatch
+OS--Concurrency
+OS--Memory Management
+OS--File Systems
+SF--Resource Allocation and Scheduling
+SF--Virtualization and Isolation
+PD--Parallelism Fundamentals
+PD--Distributed Systems
+","OS
+SF
+PD"
+CPSC 3380,"An operating system (OS) defines an abstraction of hardware and manages resource sharing among the computer’s users. The OS shares the computational resources such as memory, processors, networks, etc. while preventing individual programs from interfering with one another. After successful completion of the course, students will learn how the programming languages, architectures, and OS interact.
+After a brief history and evolution of OS, the course will cover the major components of OS. Topics will include process, thread, scheduling, concurrency (exclusion and synchronization), deadlock (prevention, avoidance, and detection), memory management, IO management, file management, virtualization, and OS’ role for realizing distributed systems. The course will also cover protection and security with respect to OS.","OS--Overview of Operating Systems
+OS--Operating System Principles
+OS--Scheduling and Dispatch
+SF--Resource Allocation and Scheduling
+OS--Concurrency
+OS--Memory Management
+OS--File Systems
+SF--Virtualization and Isolation
+OS--Virtual Machines
+OS--Device Management
+PD--Parallelism Fundamentals
+PD--Distributed Systems
+OS--Security and Protection
+OS--Real Time and Embedded Systems
+","OS
+SF
+PD"
+582219,"Understand OS services to applications, concurrency problems and solution methods for them, OS basic structure, principles and methods of OS implementation.
+OS history, process, threads, multicore, concurrency problems and their solutions, deadlocks and their prevention, memory management, virtual memory, scheduling, I/O management, disk scheduling, file management, embedded systems, distributed systems.","OS--Overview of Operating Systems
+AR--Memory System Organization
+SF--Computational Paradigms
+SF--Cross-Layer Communication
+SF--Parallelism
+OS--Operating System Principles
+OS--Concurrency
+PD--Communication- Coordination
+OS--Scheduling and Dispatch
+OS--Memory Management
+OS--Security and Protection
+OS--Virtual Machines
+OS--Device Management
+OS--File Systems
+OS--Real Time and Embedded Systems
+PD--Parallel Architectures
+","OS
+AR
+SF
+PD"
+RU STY1,"The operating system abstracts hardware from software through a multitude of interfaces. Operating systems strive  to share devices, memory and other computational resources between competing users and programs in a fast, robust and accurate manner. The course will explain what’s under the hood of typical operating system abstractions, with special emphasis on the treatment of memory and the CPU, including assembly. At the end of the course students will understand how the OS interacts with hardware, how higher level systems interact with the OS, and be able to program against these lower-level abstractions.
+The course covers many of the fundamentals of computer architecture and operating systems: x86 assembly, virtual memory, caches, processes, signals, threads, process communication, concurrency and deadlocks, scheduling, dynamic memory management, I/O management, virtual machines and the basics of network programming, file systems, and security.","OS--Overview of Operating Systems
+OS--Operating System Principles
+AR--Machine-level representation of data
+AR--Assembly level machine organization
+OS--Scheduling and Dispatch
+SF--Resource Allocation and Scheduling
+OS--Concurrency
+OS--Memory Management
+SF--Proximity
+AR--Memory system org. and arch.
+PL--Runtime systems
+OS--File Systems
+SF--Virtualization and Isolation
+OS--Virtual Machines
+IAS--Defensive Programming
+OS--Security and Protection
+SF--Support For Parallelism
+NC--Networked applications
+","OS
+AR
+SF
+PL
+IAS
+NC"
+Parallel Programming Principle and Practice,"This section covers the very basics of parallel computing, and is intended for someone who is just becoming acquainted with the subject. It begins with a brief overview, including concepts and terminology associated with parallel computing. The topics of parallel memory architectures and programming models are then explored. These topics are followed by a discussion on a number of issues related to designing parallel programs.
+Why Parallel Programming? Parallel Architecture
+Parallel Programming Models Parallel Programming Methodology Parallel Programming: Performance
+Typical Issues Solved by Parallel Programming
+This section concludes with several examples of how to parallelize simple serial programs. Including: threads and shared memory programming with TBB and OpenMP, SIMD programming model and Cuda & OpenCL, programming using the Message Passing Paradigm, parallel computing with MapReduce.
+Shared Memory Programming and OpenMP: A High Level Introduction Case Studies: Threads programming with TBB
+Programming Using the Message Passing Paradigm Introduction to GPGPUs and CUDA Programming Model Parallel Computing with MapReduce
+Parallel Programming Case Study and Assignment","PD--Parallelism Fundamentals
+PD--Parallel Decomposition
+PD--Communication and Coordination
+PD--Parallel Algorithms, Analysis, and Programming
+PD--Parallel Architecture
+PD--Parallel Performance
+PD--Distributed Systems
+PD--Formal Models and Semantics
+",PD
+Introduction to Parallel Programming,"Introduction to Parallel Programming 
+Overview of Parallel System Architectures
+Modeling and Analysis of Parallel 
+Computations Communication Complexity Analysis of Parallel Algorithms 
+Parallel Programming with MPI
+Parallel Programming with OpenMP 
+Principles of Parallel Algorithm Design
+Parallel Algorithms for Solving Time Consuming Problems (Matrix calculation, System of linear equations, Sorting, Graph algorithms, Solving PDE, Optimization)
+Modeling the parallel program executing
+","PD--Parallelism Fundamentals
+PD--Parallel Decomposition
+PD--Communication and Coordination
+PD--Parallel Algorithms, Analysis, and Programming
+PD--Parallel Architecture
+PD--Parallel Performance
+PD--Formal Models and Semantics
+",PD
+CS453,"CS 453 teaches students how to implement compilers. Although most computer science professionals do not end up implementing a full compiler, alumni of this course are surprised by how often the skills they learn are used within industry and academic settings. The subject of compilers ties together many concepts in computer science: the theoretical concepts of regular expressions and context free grammars; the systems concept of layers including programming languages, compilers, system calls, assembly language, and architecture; the embedded systems concept of an architecture with restricted resources; and the software engineering concepts of revision control, debugging, testing, and the visitor design pattern.  Students write a compiler for a subset of Java called  MeggyJava. We compile MeggyJava to the assembly language for the ATmega328p microcontroller in the Meggy Jr RGB devices.
+Regular and context free languages including DFAs and NFAs.
+Scanning and parsing
+Finite state machines and push down automata
+FIRST and FOLLOW sets
+Top-down predictive parsing
+LR parse table generation Meggy Jr Simple runtime library
+AVR assembly code including the stack and heap memory model Abstract syntax trees
+Visitor design pattern
+Semantic analysis including type checking Code generation for method calls and objects Data-flow analysis usage in register allocation Iterative compiler design and development Test-driven development and regression testing Revision control and pair programming","AL--Basic Automata Computability and Complexity
+AL--Advanced Automata Computability and Complexity
+PL--Event-Driven and Reactive Programming
+PL--Program Representation
+PL--Language Translation and Execution
+PL--Syntax Analysis
+PL--Compiler Semantic Analysis
+PL--Code Generation
+PL--Runtime Systems
+PL--Static Analysis
+PL--Language Pragmatics
+SE--Software Verification and Validation
+SE--Software Design
+SE--Software Processes
+","AL
+PL
+SE"
+Csc 453,"This course covers the design and implementation of translator-oriented systems software, focusing specifically on compilers, with some time spent on related topics such as interpreters and linkers.
+Background. Compilers as translators. Other examples of translators: document-processing tools such as ps2pdf and latex2html; web browsers; graph-drawing tools such as dot; source-to-source translators such as f2c; etc.
+Lexical analysis. Regular expressions; finite-state automata and their implementation. Scanner- generators: flex.
+Parsing. Context-free grammars. Top-down and bottom-up parsing. SLR(1) parsers. Parser-generators: yacc, bison.
+Semantic analysis. Attributes, symbol tables, type checking.
+Run-time environments. Memory organization. Stack-based environments.
+Intermediate representations. Abstract syntax trees, three-address code. Code generation for various language constructs. Survey of machine-independent code optimization.
+Interpreters. Dispatch mechanisms: byte-code, direct-threading, indirect-threading. Expression evaluation: Registers vs. operand stack. Just-in-time compilers. Examples: JVM vs. Dalvik for Java; Spidermonkey for JavaScript; JIT compilation in the context of web browsers.
+Linking. The linking process, linkers and loaders. Dynamic linking.","PL--Program Representation
+PL--Language Translation and Execution
+PL--Syntax Analysis
+PL--Compiler Semantic Analysis
+PL--Code Generation
+PL--Runtime Systems
+",PL
+CSCI 434T,"Overview of compilation
+Lexical analysis
+Context-free grammars, top-down and bottom-up parsing, error recovery Abstract syntax trees, symbol tables
+Lexical scoping, types (primitive, record, arrays, references), type checking Object-oriented type systems, subtyping, interfaces, traits
+Three-address code and other intermediate representations
+Code generation, data representation, memory management, object layout Code transformation and optimization
+Class hierarchy analysis Dataflow analysis Register allocation
+Run-time systems, just-in-time compilation, garbage collection","PL--Basic Type Systems
+PL--Program Representation
+PL--Language Translation and Execution
+PL--Syntax Analysis
+PL--Compiler Semantic Analysis
+PL--Code Generation
+PL--Runtime Systems
+PL--Static Analysis
+SE--Software Design
+AR--Machine-level representation of data
+AR--Assembly level machine organization
+","PL
+SE
+AR"
+Compilers,"The course covers the design, definition and implementation of programming languages. Students who have been through the class will be able to specify and implement language syntax using regular expressions or context free grammars as appropriate. Students will understand the distinction between no typing, static typing and dynamic typing and be able to implement simple static type systems as well as perform standard syntax analysis for scoping  of global, local, and class-visible names. Students will understand the difference between compile time and run time and be able to reason about and make decisions about what should be done at which time. Students will also be introduced to formal semantics as a form of specification of the behavior of a programming language and be able to use formal semantics in the construction of a compiler. Run-time structures such as the stack, activation records and static data such as string constants and dispatch tables are covered.  All of the topics up to this point will also be   used as part of a large course project to build a simple compiler for a statically typed object oriented language.
+Additional topics include register allocation, garbage collection, dataflow analysis, and optimization.","PL--Object-Oriented Programming
+PL--Basic Type Systems
+PL--Program Representation
+PL--Language Translation and Execution
+PL--Syntax Analysis
+PL--Compiler Semantic Analysis
+PL--Code Generation
+PL--Runtime Systems
+PL--Static Analysis
+PL--Type Systems
+PL--Formal Semantics
+PL--Language Pragmatics
+",PL
+Languages and Compilers,"To describe structures (i.e., “formulas”) using grammars;
+To parse, i.e., to recognize (build) such structures in (from) a sequence of symbols; To analyze grammars to see whether or not specific properties hold;
+To compose components such as parsers, analyzers, and code generators; To apply these techniques in the construction of all kinds of programs;  To familiarize oneself with the concept of computability.
+Context-free grammars and languages Concrete and abstract syntax
+Regular grammars, languages, and expressions Pumping lemmas
+Grammar transformations Parsing, parser design
+Parser combinators (top-down recursive descent parsing) LL parsing
+LR parsing
+Semantics: datatypes, (higher-order) folds and algebras","PL--Program representation
+PL--Language Translation and Execution
+PL--Syntax analysis
+PL--Compiler Semantic Analysis
+PL--Code Generation
+PL--Language Pragmatics
+AL--Basic Automata Computability and Complexity
+AL--Advanced Automata Theory and Computability
+PL--Functional Programming
+","PL
+AL"
+COMP 412,"Scanning, parsing, semantic elaboration, intermediate representation, implementation of the procedure as an abstraction, implementation of expressions, assignments, and control-flow constructs, brief overview of optimization, instruction selection, instruction scheduling, register allocation. (Full syllabus is posted on the website, listed above.)","AL--Basic Automata Computability and Complexity
+AL--Advanced Automata Theory and Computability
+PL--Program Representation
+PL--Language Translation and Execution
+PL--Syntax Analysis
+PL--Compiler Semantic Analysis
+PL--Code Generation
+","PL
+AL"
+CSC 131,"A thorough examination of issues and features in programming language design and implementation, including language-provided data structuring and data-typing, modularity, scoping, inheritance, and concurrency.
+Compilation and run-time issues. Introduction to formal semantics. Specific topics include: Overview of compilers and Interpreters (including lexing & parsing)
+Lambda calculus
+Functional languages (via Haskell)
+Formal semantics (mainly operational semantics) Writing interpreters based on formal semantics Static and dynamic type-checking
+Run-time memory management Data abstraction & modules
+Object-oriented languages (illustrated via Java and Scala)
+Shared memory parallelism/concurrency (semaphores, monitors, locks, etc.)
+Distributed parallelism/concurrency via message-passing (Concurrent ML, Scala Actors)","PL--Object-Oriented Programming
+PL--Functional Programming
+PL--Event-Driven and Reactive Programming
+PL--Basic Type Systems
+PL--Program Representation
+PL--Language Translation and Execution
+PL--Syntax Analysis
+PL--Compiler Semantic Analysis
+PL--Advanced Programming Constructs
+PL--Concurrency and Parallelism
+PL--Type Systems
+PL--Formal Semantics
+PL--Language Pragmatics
+PD--Parallelism Fundamentals
+PD--Parallel Decomposition
+PD--Communication & Coordination
+","PL
+PD"
+CSCI 1730,"The course uses definitional interpreters and related techniques to teach the core of several programming languages.
+The course begins with a quick tour of writing definitional interpreters by covering substitution, environments, and higher-order functions. The course then dives into several topics in depth:
+Mutation
+Recursion and cycles Objects
+Memory management Control operators Types
+Contracts
+Alternate evaluation models","PL--Object-Oriented Programming
+PL--Functional Programming
+PL--Basic Type Systems
+PL--Language Translation and Execution
+PL--Runtime Systems
+PL--Advanced Programming Constructs
+PL--Type Systems
+PL--Language Pragmatics
+PL--Logic Programming
+",PL
+CSC 2/454,"CSC 2/454 is an introduction to the design and implementation of programming languages.  From the design point  of view, it covers language features as tools for expressing algorithms. From the implementation point of view, it covers compilers, interpreters, and virtual machines as tools to map those features efficiently onto modern computer hardware. The course touches on a wide variety of languages, both past and present, with an emphasis on modern imperative languages, such as C++ and Java, and, to a lesser extent, on functional languages such as Scheme and Haskell, and dynamic (scripting) languages such as Perl, Python, and Ruby.  Rather than dwell on the features of  any particular language, it focus on fundamental concepts and on the differences among languages, the reasons for those differences, and the implications those differences have for language implementation.
+Specific topics include:
+formal aspects of syntax and semantics naming, scoping, and binding
+scanning, parsing, semantic analysis, and code generation control flow, subroutines, exception handling, and concurrency type systems, data abstraction mechanisms, and polymorphism run-time systems, virtual machines, and storage management
+imperative, functional, logic-based, and object-oriented programming paradigms programming environments and tools","PL--Object-Oriented Programming
+PL--Functional Programming
+PL--Basic Type Systems
+PL--Program Representation
+PL--Language Translation and Execution
+PL--Syntax Analysis
+PL--Compiler Semantic Analysis
+PL--Runtime Systems
+PL--Advanced Programming Constructs
+PL--Concurrency and Parallelism
+PL--Type Systems
+PL--Language Pragmatics
+",PL
+CSE341,"Internalize an accurate understanding of what functional and object-oriented programs mean Develop the skills necessary to learn new programming languages quickly
+Master specific language concepts such that they can recognize them in strange guises Learn to evaluate the power and elegance of programming languages and their constructs
+Attain reasonable proficiency in the ML, Racket, and Ruby languages and, as a by-product, become more proficient in languages they already know
+Syntax vs. semantics
+Basic ML programming: Pairs, lists, datatypes and pattern-matching, recursion Higher-order functions: Lexical scope, function closures, programming idioms Benefits of side-effect free programming
+Type inference
+Modules and abstract types Parametric polymorphism Subtyping
+Dynamically typed functional programming Static vs. dynamic typing
+Lazy evaluation: thunks, streams, memoization Implementing an interpreter
+Implementing function closures
+Dynamically typed object-oriented programming Inheritance and overriding
+Multiple inheritance vs. interfaces vs. mixins
+Object-oriented decomposition vs. procedural/functional decomposition
+… a few more minor topics in the same basic space","PL--Object-Oriented Programming
+PL--Functional Programming
+PL--Basic Type Systems
+PL--Program Representation
+PL--Language Translation and Execution
+PL--Advanced Programming Constructs
+PL--Type Systems
+PL--Language Pragmatics
+",PL
+CSCI 334,"Functional programming concepts in Lisp Syntax, semantics, and evaluation strategies
+ML programming, including basic types, datatypes, pattern matching, recursion, and higher order functions
+Types, dynamic/static type checking, type inference, parametric polymorphism Run-time implementations: stacks, heaps, closures, garbage collection Exception handlers
+Abstract types and modularity
+Object-oriented programming and systems design
+Object-oriented language features: objects, dynamic dispatch, inheritance, subtyping, etc. Multiple inheritance vs. interfaces vs. traits
+Scala programming, including most basic language features. Language-based security mechanisms and sandboxing Models of concurrency: shared memory and actors","PL--Object-Oriented Programming
+PL--Functional Programming
+PL--Basic Type Systems
+PL--Program Representation
+PL--Language Translation and Execution
+PL--Advanced Programming Constructs
+PL--Concurrency and Parallelism
+PL--Type Systems
+PL--Formal Semantics
+PL--Language Pragmatics
+IAS--Secure Software Design and Engineering
+PD--Parallelism Fundamentals
+PD--Parallel Decomposition
+PD--Communication & Coordination
+","PL
+IAS
+PD"
+Programming Languages and Techniques I,"Programming Design and Testing
+Persistent Data Structures & Functional programming Trees & Recursion
+Mutable Data Structures (queues, arrays) First-class computation (objects, closures) Types, generics, subtyping
+Abstract types and encapsulation
+Functional, OO, and Event-driven programming","AL--Fundamental Data Structures and Algorithms
+DS--Graphs and Trees
+HCI--Programming Interactive Systems
+PL--Object-Oriented Programming
+PL--Functional Programming
+PL--Event-Driven and Reactive Programming
+PL--Basic Type Systems
+PL--Language Translation and Execution
+PL--Advanced Programming Constructs
+SDF--Algorithms and Design
+SDF--Fundamental Programming Concepts
+SDF--Fundamental Data Structures
+SDF--Development Methods
+","AL
+DS
+HCI
+PL
+SDF"
+15-312,"This is a course on the theory of programming languages. Why study these principles? Because they are fundamental to the design, implementation, and application of programming languages.
+Programming language design is often regarded as largely, or even entirely, a matter of opinion, with few, if any, organizing principles, and no generally accepted facts. Dozens of languages are in everyday use in research laboratories and in industry, each with its adherents and detractors. The relative merits of languages are debated endlessly, but always, it seems, with an inconclusive outcome. Some would even suggest that all languages are equivalent, the only difference being a matter of personal taste. Yet it is obvious that programming languages do matter!
+Yet can we really say that Java is “better” (or “worse”) than C++? Is Scheme “better” than Lisp? Is ML “better”   than either of them? Can we hope to give substance to any of these questions? Or should we simply reserve them for late night bull sessions over a glass of beer? While there is certainly an irreducible subjective element in programming language design, there is also a rigorous scientific theory of programming languages that provides a framework for posing, and sometimes answering, such questions. To be sure there are good questions for which current theory offers no solutions, but surprisingly many issues are amenable to a rigorous analysis, providing definite answers to many questions. Programming language theory liberates us from the tar pit of personal opinion, and elevates us to the level of respectable scientific discourse.
+Programming language theory is fundamental to the implementation of programming languages, as well as their design. While compiler writers have long drawn on the theory of grammars for parsing and on graph theory for register allocation, the methods used to compile well-known languages such as C do not rely on deep results from programming language theory. For relatively simple languages, relatively simple compilation methods suffice. But as languages become more sophisticated, so must more sophisticated methods be employed to compile them.
+For example, some programs can be made substantially more efficient if code generation is deferred until some run- time data is available. A tight inner loop might be ``unrolled'' into a linear instruction sequence once the iteration bound is determined. This is one example of partial evaluation, a technique for program specialization that rests on 
+results from programming language theory. To take another example, modern languages such as ML (and proposed extensions of Java) include what are known as parameterized types to support flexible code re-use. Parameterized types complicate compilers considerably because they must account for situations in which the type of a variable or function argument is not known at compile time. The most effective methods for handling parameterized types rely on typed intermediate languages with quite sophisticated type systems. Here again programming language theory provides the foundation for building such compilers.
+Programming language theory has many applications to programming practice. For example, “little languages” arise frequently in software systems -- command languages, scripting languages, configuration files, mark-up languages, and so on. All too often the basic principles of programming languages are neglected in their design, with all too familiar results. After all, the argument goes, these are “just” scripting languages, or “just” mark-up languages, why bother too much about them? One reason is that what starts out as “just” an ad hoc little language often grows into much more than that, to the point that it is, or ought to be, a fully-fledged language in its own right. Programming language theory can serve as a guide to the design and implementation of special purpose, as well as general  purpose, languages.
+Another application of the theory of programming languages is to provide a rigorous foundation for software engineering. Formal methods for software engineering are grounded in the theory of specification and verification. A specification is a logical formula describing the intended behavior of a program. There are all kinds of specifications, ranging from simple typing conditions (“the result is a floating point number between 0 and 1”) to complex invariants governing shared variables in a concurrent program. Verification is the process of checking that the implementation indeed satisfies the specification. Much work has gone into the development of tools for specifying and verifying programs. Programming language theory makes precise the connection between the code and its specification, and provides the basis for constructing tools for program analysis.
+The theory of programming languages provides a “reality check” on programming methodology, that part of  software engineering concerned with the codification of successful approaches to software development. For example, the merits of object-oriented programming for software development are well known and widely touted. Object-oriented methodology relies heavily on the notions of subtyping and inheritance. In many accounts these two notions are confused, or even conflated into one concept, apparently because both are concerned with the idea of one class being an enrichment of another. But careful analysis reveals that the two concepts are, and must be, distinct: confusing them leads to programs that violate abstraction boundaries or even incur run-time faults.
+The purpose of this course is to introduce the basic principles, methods, and results of programming languages to undergraduate students who have completed the introductory sequence in computer science at Carnegie Mellon. I intend for students to develop an appreciation for the benefits (and limitations) of the rigorous analysis of programming concepts.
+The development is based on type theory, a general theory of computation that encompasses all aspects of programming languages, from the data with which we compute to the means by which we structure programs. Programming language “features” are viewed as manifestations of type structure. Basic data structures such as tuples arise as product types, trees and graphs arise as recursive types, and procedures arise as monadic function types. Each language concept is defined by giving its statics, which specify how it interacts with other parts of a program, and its dynamics, which specifies how it is executed on a computer. Type safety is the coherence of the statics with the dynamics; safety is proved as a mathematical theorem governing each language feature.  The specific topics vary from one semester to the next, but the course typically covers finite and infinite data structures, higher-order functions, continuations, mutable storage, data abstraction and polymorphism, so-called dynamic typing, parallel computation, laziness, and concurrency, all presented in a single unifying framework.","AL--Basic Analysis
+DS--Sets, Relations,Functions
+DS--Logic
+DS--Proof techniques
+OS--Concurrency
+OS--Scheduling
+PD--Parallelism Fundamentals
+PD--Parallel Decomposition
+PD--Parallel Algorithms, Analysis, and Programming
+PL--Object-oriented Programming
+PL--Functional Programming
+PL--Event-Driven and Reactive Programming
+PL--Basic type systems
+PL--Program Representation
+PL--Language Translation and Execution
+PL--Compiler Semantic Analysis
+PL--Advanced Programming Constructs
+PL--Type Systems
+PL--Formal Semantics
+","AL
+DS
+OS
+PD
+PL"
+15-150,"to write parallel functional programs
+to analyze programs’ sequential and parallel time complexity
+to write mathematical specifications and verify that programs meet them 
+to structure programs using modules and abstract types
+In the first three weeks of the course, students learn to write basic sequential functional programs on numbers and lists, to analyze their time complexity, and to prove mathematical correctness specifications using induction.  Parallelism is introduced in the fourth week:  Students learn to write data-parallel functional programs. They learn to analyze not just the usual sequential complexity of programs, but their parallel complexity, and how this influences algorithm and data structure design. An early example is sorting: One might think that mergesort would have logarithmic parallel complexity, because as a sorting problem is repeatedly divided in half, the length of the longest dependency is logarithmic. However, with lists as the data structure, mergesort has a linear parallel complexity, because just the operation of splitting a list into two halves takes linear time, independently of how many processors are available.  This motivates studying mergesort on trees, which has a sublinear parallel complexity. Because the parallelism is deterministic, students can reason about the behavior of their programs as if they were sequential, but run them in parallel.  These  programming, analysis, and verification skills continue to be interwoven throughout the remainder of the course, as students learn more advanced techniques.
+Overall, students learn the following aspects of programming, analyzing, and proving:
+The organization of programming languages by types
+Computing by calculation: how programs are evaluated
+Recursive functions and proofs by induction
+Asymptotic analysis and recurrence relations
+Tree parallelism
+Datatypes, pattern-matching, and structural recursion/induction
+Parametric polymorphism
+Higher-order functions
+Continuation-passing style
+Exceptions
+Cost semantics
+Vector parallelism and map-reduce
+Modules and abstract types
+Imperative programming
+Interaction of parallelism and effects
+Laziness and streams
+The course is taught in Standard ML. A variety of examples are used to teach these skills, including sequential and parallel sorting, map-reduce algorithms, regular expression matching, n-body simulation, and game-tree search. The assignments integrate parallel programming, analysis, and verification.  For example, in one key assignment,  students write and prove correct a regular expression matcher, combining an advanced programming technique  called continuation-passing-style with sophisticated inductive reasoning.  In another, students implement an algorithm for n-body simulation that has good sequential and parallel complexity, using a mix of tree- and vector- parallelism.","AL--Basic Analysis
+AL--Algorithmic Strategies
+AL--Fundamental Data Structures and Algorithms
+AL--Advanced Data Structures Algorithms and Analysis
+DS--Basic logic
+DS--Proof techniques
+PD--Parallelism Fundamentals
+PD--Parallel Decomposition
+PD--Parallel Algorithms, Analysis, and Programming
+PL--Functional Programming
+PL--Basic Type Systems
+PL--Advanced Programming Constructs
+PL--Concurrency and Parallelism
+PL--Type systems
+SDF--Algorithms and Design
+SDF--Fundamental Programming Concepts
+SDF--Fundamental Data Structures
+SDF--Development Methods
+SE--Software Verification and Validation
+","AL
+DS
+PD
+PL
+SDF
+SE"
+CIS 133J,"Object-oriented programming concepts 
+Objects, classes
+State, behavior
+Methods, fields, constructors 
+Variables,  parameters Scope, 
+lifetime
+Abstraction, modularization, encapsulation 
+Method overloading
+Data types
+Conditional statements, logical expressions 
+Loops
+Collection processing 
+Using library classes 
+UML class diagrams 
+Documentation 
+Debugging
+Use of an IDE","AL--Fundamental Data Structures and Algorithms
+PL--Object-Oriented Programming
+PL--Basic Type Systems
+PL--Language Translation and Execution
+SDF--Algorithms and Design
+SDF--Fundamental Programming Concepts
+SDF--Fundamental Data Structures
+SDF--Development Methods
+","AL
+PL
+SDF"
+Introduction to Computer Science,"This course has five distinct modules of roughly three weeks each:
+(1) We begin with conditionals and recursion, practicing a functional problem-solving approach to a variety of homework problems. Python is the language in which students solve all of their assignments in this module.
+(2) In the second module students investigate the fundamental ideas of binary representation, combinational circuits, machine architecture, and assembly language; they complete assignments in each of these topics using Python, Logisim, and a custom-built assembly language named Hmmm. This unit culminates with the hand- implementation of a recursive function in assembly, pulling back the curtain on the “magic” that recursion can sometimes seem.
+(3) Students return to Python in the third module, building imperative/iterative idioms and skills that build from the previous unit’s assembly language jumps. Creating the Mandelbrot set from scratch, Markov text-generation, and John Conway’s Game of Life are part of this module’s student work.
+(4) The fourth module introduces object-oriented skills, again in Python, with students implementing a Date calculator, a Board class that can host a game of Connect Four, and a Player class that implements game-tree search.
+(5) The fifth module introduces mathematical and theoretical facets of computer science, including finite-state machines, Turing machines, and uncomputable functions such as Kolmogorov complexity and the halting problem. Small assignments use JFLAP to complement this in-class content, even as students’ work centers on a medium-sized Python final project, such as a genetic algorithm, a game using 3d graphics with the VPython library, or a text-analysis web application.","AL--Algorithmic Strategies
+AL--Basic Automata, Computability and Complexity
+AR--Digital logic and digital systems
+AR--Machine level representation of data
+AR--Assembly level machine organization
+PD--Parallelism Fundamentals
+PL--Object-Oriented Programming
+SDF--Algorithms and Design
+SDF--Fundamental Programming Concepts
+SDF--Fundamental Data Structures
+","AL
+AR
+PD
+PL
+SDF"
+CpSc 215,"Major topics covered, in their approximate order of coverage, include the following:
+ Java Basics: Introduction, interpreted versus compiled languages
+Java Basics: Packages, classpaths, the Java compiler
+Java Basics: The Eclipse integrated development environment
+Java Basics: Parameter passing, shallow versus deep copying, value versus reference semantics
+Java Classes: Fields, methods, accessibility modifiers
+Java Classes: Constructors, overloading
+Java Classes: Static fields, methods, initializers 
+Design Patterns: Introduction, historical context 
+Design Patterns: Singleton, Flyweight
+Java Libraries: java.io.*, java.util.*, java.net.*, java.math.* 
+Java Interfaces: Declaring, implementing, using as types 
+Abstract Data Structures: Stacks, queues, sets
+Analytical Reasoning: Introduction to interface contracts
+Analytical Reasoning: Review of basic mathematical types (integers, tuples, strings, sets) 
+Analytical Reasoning: Formal contract specifications
+Abstract Data Structures: Partial maps (dictionaries), linked-lists 
+Analytical Reasoning: Contract-based Testing and Tracing 
+Design Patterns: Decorator
+Analytical Reasoning: Assertion-checking wrappers (using Decorator) 
+Java Exceptions: Concepts, declaring, throwing, catching
+Java Inheritance: Concepts, type system integration, polymorphism 
+Design Patterns: Template Method, Strategy
+Algorithms as Components: Parameterized sorting implementations 
+Java Generics: Concepts, syntax, subclassing issues
+Design Patterns: Observer
+Analytical Reasoning: Introduction to verification 
+Analytical Reasoning: Software verification with objects 
+Java Libraries: javax.swing.*, basic Swing development","SDF--Algorithms and Design
+SDF--Fundamental Data Structures
+SDF--Development Methods
+PL--Object-Oriented Programming
+PL--Basic Type Systems
+SE--Software Design
+SE--Formal Methods
+","SDF
+PL
+SE"
+CS1101,"Upon completion of this course, the student should be able to:
+Understand when to use and write programs over structures, lists, and trees 
+Develop data models for programming problems
+Write recursive and mutually recursive programs using the Racket programming language 
+Explain when state is needed in value-oriented programming
+Develop test procedures for simple programs
+Basic data types (numbers, strings, images, booleans) 
+Basic primitive operations (and, or, +, etc.) 
+Abstracting over expressions to create functions 
+Documenting and commenting functions
+What makes a good test case and a comprehensive test suite 
+Conditionals
+Compound data (records or structs)
+Writing and testing programs over lists (of both primitive data and compound data) 
+Writing and testing programs over binary trees
+Writing and testing programs over n-ary trees
+Working with higher-order functions (functions as arguments) 
+Accumulator-style programs
+Changing contents of data structures 
+Mutating variables","AL--Fundamental Data Structures and Algorithms
+PL--Functional Programming
+SDF--Algorithms and Design
+SDF--Fundamental Programming Concepts
+SDF--Fundamental Data Structures
+SDF--Development Methods
+","AL
+PL
+SDF"
+Data Abstraction and Data Structures,"Abstract data types and their implementation as data structures using object-oriented programming. Use of object- oriented principles in the selection and analysis of various ADT implementations. Sequential and linked storage representations: lists, stacks, queues, and tables. Nonlinear data structures: trees and graphs. Recursion, sorting, searching, and algorithm complexity.
+Apply appropriate data structures and abstract data types (ADT) such as bags, lists, stacks, queues, trees, tables, and graphs in problem solving.
+Apply object-oriented principles of polymorphism, inheritance, and generic programming when implementing ADTs for data structures.
+Create alternative representations of ADTs either from implementation or the standard libraries. Apply recursion as a problem solving technique.
+Determine appropriate ADTs and data structures for various sorting and searching algorithms. Determine time and space requirements of common sorting and searching algorithms.","SP--Professional Communication
+SDF--Fundamental Data Structures
+AL--Basic Analysis
+","SP
+SDF
+AL"
+Software Engineering Practices,"Typical outline of course topics includes:
+Introduction to Software Engineering Models of Software Process
+Project Planning and Organization Software Requirements and Specifications Software Design Techniques
+Software Quality Assurance Software Testing
+Software Tools and Environments","SE--Software Processes
+SE--Software Project Management
+SE--Requirements Engineering
+SE--Software Design
+SE--Software Construction
+SE--Software Verification and Validation
+SE--Software Evolution
+SE--Formal Methods
+",SE
+CS169,"Introduction to SaaS and software lifecycles: Waterfall, Spiral, RUP, Agile
+Project Management: Pair programming and Scrum vs. Planning and Project manager 
+Requirements Elicitation: User Stories vs. Contracts
+Testing: Behavior Driven Design and Test Driven Development vs. Code then test 
+Maintenance: Legacy, Refactoring, and Agile
+Version control systems and releases 
+Design patterns
+Performance, reliability, and security","SE--Software Processes
+SE--Software Project Management
+SE--Tools and Environments
+SE--Requirements Engineering
+SE--Software Design
+SE--Software Construction
+SE--Software Verification and Validation
+SE--Software Evolution
+SE--Formal Methods
+SE--Software Reliability
+",SE
+SE-2890,"Introduction to software engineering practices 
+Requirements and Use Cases
+Software Reviews, Version Control, and Configuration Management 
+Design: Object domain analysis, associations, behavior
+Design and Design Patterns
+Java Review (almost a year since last use) 
+Code reviews and software testing  Week 10 - Applications to embedded systems
+","SE--Software Processes
+SE--Software Project Management
+SE--Tools and Environments
+SE--Requirements Engineering
+SE--Software Design
+SE--Software Verification & Validation
+",SE
+Software Development,"This course presents introductory software engineering concepts including group development, large-scale project work, and theoretical aspects of object-oriented programming. The course expands on material from previous courses. Professional behavior and ethics represent an important component of this course.
+This course is being used as an exemplar of how we incorporate communication outcomes into the core curriculum. The catalog description looks very much like other courses for software development; however, the real difference is in the execution of the course and how the communication skills are integrated into the assignments.
+CSC 225 (Introduction to Software Development) is an experiential introduction to software development that focuses on learning basic software development principles and communications skills by developing an ongoing project (i.e., the project is carried over and developed during each iteration of the course).  Students work as   software development teams in the context of a workplace scenario where assignments are reports to a supervisor who uses the information reported for subsequent tasks such as reports for upper management. This strategy focuses students’ learning on selecting critical information for the supervisor to use and presenting it in an accessible and persuasive manner. Student learning occurs through two sets of linked assignments that use formative assessment to achieve competence at the first-semester sophomore level.","SP--Professional Communication
+SDF--Development Methods
+SE--Tools and Environments
+SE--Process Management
+","SP
+SDF
+SE"
+CS2200,"The course represents a novel integrated approach to presenting side by side both the architecture and the operating system of modern computer systems, so that students learn how the two complement each other in making the computer what it is. The course consists of five modules, corresponding to the five major building blocks of any modern computer system: processor, memory, parallelism, storage, and networking. Both the hardware and system software issues are covered concomitantly in presenting the five units. Topics covered include
+Processor design including instruction-set design, processor implementation (simple as well as pipelined with the attendant techniques for overcoming different kinds of hazards), processor performance (CPI, IPC, execution time, Amdahl’s law), dealing with program discontinuities (interrupts, traps, exceptions), and design of interrupt handlers
+Processor scheduling algorithms including FCFS, SJF, priority, round robin, with Linux scheduler as a real world example
+Memory system including principles of memory management in general (paging in particular) and the necessary hardware support (page tables, TLB), page replacement algorithms, working set concepts, the inter-relationship between memory management and processor scheduling, thrashing, and context switching overheads
+Memory hierarchy including different organizations of processor caches, the path of memory access from the processor through the different levels of the memory hierarchy, interaction between virtual memory and processor caches, and page coloring
+Parallel programming (using pthreads), basic synchronization (mutex locks, condition variables) and communication (shared memory), program invariants, OS support for parallel programming, hardware support for parallel programming, rudiments of multiprocessor TLB and cache consistency
+Basics of I/O (programmed data transfer, DMA), interfacing peripherals to the computer, structure of device driver software
+Storage subsystem focusing on hard disk (disk scheduling), file systems (naming, attributes, APIs, disk allocation algorithms), example file systems (FAT, ext2, NTFS)
+Networking subsystem focusing on the transport layer protocols (stop and wait, pipelined, congestion control, windowing) , network layer protocols (Dijkstra, distance vector) and service models (circuit-, message-, and packet-switching), link layer protocols (Ethernet, token ring)
+Networking gear (NIC, hubs/repeater, bridge, switch, VLAN)
+Performance of networking (end-to-end latency, throughput, queuing delays, wire delay, time of flight, protocol overhead).","SF--Processor architecture
+SF--Program discontinuities
+SF--Processor performance metrics
+SF--Principles of pipelining
+SF--Processor Scheduling
+SF--Scheduling performance metrics
+SF--Memory management
+SF--Page-based memory management
+SF--Processor caches
+SF--Main memory
+SF--Memory system performance metrics
+SF--Parallel programming
+SF--OS support for parallel programming
+SF--Architecture support for parallel programming
+SF--Input/output
+SF--Disk subsystem
+SF--File systems
+SF--Transport layer
+SF--Network layer
+SF--Link layer
+SF--Networking gear
+SF--Network performance
+",SF
+CS61C,"Introduction to C: this includes coverage of the Hardware/Software Interface (e.g., machine and assembly language formats, methods of encoding instructions and data, and the mapping processes from high level languages, particularly C, to assembly and machine language instructions). Computer architectures: how processors interpret/execute instructions, Memory Hierarchy, Hardware Building Blocks, Single CPU Datapath and Control, and Instruction Level Parallelism. The concept of parallelisms, in particular, task level parallelism, illustrated with Map-Reduce processing; Data Level Parallelism, illustrated with the Intel SIMD instruction set; Thread Level Parallelism/multicore programming, illustrated with openMP extensions to the C programming language.","SF--Computational Paradigms
+SF--Cross-Layer Communications
+SF--State-State Transition-State Machines
+SF--Parallelism
+SF--Performance
+SF--Proximity
+SF--Virtualization and Isolation
+SF--Reliability Through Redundancy
+",SF
+CSE333,"The major goal of the course is to give students principles, skills, and experience in implementing complex,  layered systems. The course includes a quarter-long programming project in which students: (a) build rudimentary data structures in C, such as linked lists, chained hash tables, AVL trees; (b) use them to build an in-memory inverted index and file system crawler; (c) construct a C++-based access methods for writing indexes to disk and accessing disk-based indexes efficiently; and (d) construct a concurrent (threaded or event-driven) web server that exposes a search application.
+A substantial portion of the course focuses on giving students in-depth C and C++ skills and experience with practical engineering tools such as debuggers, unit testing frameworks, and profilers. The course stresses the discipline of producing well-structured and readable code, including techniques such as style guidelines and code reviews. Additionally, the course covers topics such as threaded vs. event-driven concurrency, the Linux system call API, memory management, and some security and defensive programming techniques.
+C programming
+pointers, structs, casts; arrays, strings dynamic memory allocation
+C preprocessors, multifile programs core C libraries
+error handling without exceptions
+C++ programming
+class definitions, constructors and destructors, copy constructors
+dynamic memory allocation (new / delete), smart pointers, classes with dynamic data inheritance, overloading, overwriting
+C++ templates and STL
+Tools and best practices compilers, debuggers, make
+leak detectors, profilers and optimization, code coverage version control
+code style guidelines; code review
+Systems topics: the layers below (OS, compiler, network stack) concurrent programming, including threading and asynchronous I/O file system API
+sockets API
+understanding the linker / loader
+fork / join, address spaces, the UNIX process model
+
+","SF--Cross-layer Communications
+SF--Support for Parallelism
+SF--Proximity
+AR--Assembly level machine org.
+AR--Memory system org. and arch.
+IM--Indexing
+NC--Networked applications
+OS--Principles
+OS--Concurrency
+OS--File systems
+PL--Object-oriented Programming
+PL--Event-Driven and Reactive Programming
+SE--Tools and environments
+SE--Software construction
+SE--Software Verification and Validation
+","SF
+AR
+IM
+NC
+OS
+PL
+SE"
+IFSM304,"This course is a comprehensive study of ethics and of personal and organizational ethical decision making in the use of information systems in a global environment. The aim is to identify ethical issues raised by existing and emerging technologies, apply a structured framework to analyze risk and decision alternatives, and understand the impact of personal ethics and organizational values on an ethical workplace. 
+apply relevant ethical theories, laws, regulations, and policies to decision making to support organizational compliance
+recognize business needs, social responsibilities, and cultural differences of ethical decision making to operate in a global environment
+identify and address new and/or increased ethical issues raised by existing and emerging technologies
+foster and support an ethical workforce through an understanding of the impact of personal ethics and organizational values
+apply a decision-making framework to analyze risks and decision alternatives at different levels of an organization
+Technology-related Ethical Global issues (multi-national corporation) Decision making frameworks to technology-related ethical issues Organizational policy to address the technology-related ethical issue Research existing or emerging technology and its ethical impact
+Study group presentation of research on existing or emerging technology and related ethical issues
+a reflective piece on class learning as it applies to ethics in information technology","SP--Social Context
+SP--Analytical Tools
+SP--Professional Ethics
+SP--Intellectual Property
+SP--Privacy and Civil Liberties
+SP--Professional Communication
+",SP
+Technology Consulting in the Community,"This course has service, personal, and intellectual goals. Its service goal is to build the technical capacity of community organizations by providing effective technology consultants. To promote this effectiveness, and to enrich the intellectual preparation of Carnegie Mellon students, the course teaches students how to:
+Establish a professional working relationship
+Quickly assess a complex technical environment and identify problem areas 
+Systematically bring structure to unstructured problems
+Communicate technical ideas to an often non-technical audience 
+Negotiate with the client acceptable deliverables for the consulting period 
+Develop and execute a work plan
+Use writing skills to maintain working documents that describe, plan, persuade, and coordinate work with others
+Reflect and learn from their experience as well as the experience of their colleagues 
+Broaden their understanding of the relevance of information systems and computer science.
+Students routinely find the experience to be very personally satisfying. Student consultants learn that they can be effective in helping a community organization make better use of its computers, and help its staff and/or volunteers understand more about the technology. Students also often express that it is refreshing to step outside the grind of Carnegie Mellon life and do something worthwhile in the community.
+Capacity-Building Consulting and Alternative Consulting Models Establishing and Managing Professional Relationships
+Gathering and Analyzing Information Structuring unstructured problems Researching alternative solutions Analyzing Buy vs. Build
+Technology Planning
+Developing and Communicating a Scope of Work and Work Plan Modelling Technical Problem Solving
+Communicating Difficult Technical Concepts to a Nontechnical Audience Documenting and Analyzing Outcomes
+Formulating Persuasive Recommendations Synthesizing a Final Consulting Report Orally Presenting Project Outcomes Reflecting on the Consulting Experience","SP--Social Context
+SP--Analytical Tools
+SP--Professional Ethics
+SP--Professional Communication",SP
+Issues in Computing,"In the context of widespread computer usage and society’s ever-growing dependence on computer technology, the course focuses on issues of ethics for the computing professional. A list of topics:
+Introduction to Computer Ethics Survey of the tools of ethical analysis
+Practical applications of the tools of ethical analysis Professional ethics
+Privacy issues
+Intellectual property protection issues Freedom of expression and the Internet
+Ethical dimensions of computer system reliability Digital Divide
+Social impact of technology in the workplace, in education, in healthcare","SP--Social Context
+SP--Analytical Tools
+SP--Professional Ethics
+SP--Intellectual Property
+SP--Privacy and Civil Liberties
+SP--Professional Communication
+SP--Economies of Computing
+SP--Security Policies, Laws, and Computer Crime
+",SP
+CSI 194,"Students learn ethics and moral philosophy as a means for providing a framework for ethically grounded decision making in the information age. Topics include the basic concepts and theories of ethics (moral reasoning and normative frameworks); basic concepts of argumentation and inductive reasoning; an introduction to cyberethics; issues related to networking and network security (threats related to breaches, countering breaches; privacy and personal autonomy (anonymity and accountability, identity theft); intellectual property and ownership rights (Digital Millennium Copyright Act, digital rights management, alternatives to the property model); computing and society, social justice, community, and self-identity digital divide, free speech and censorship; professional ethics and codes of conduct. Four hours are assigned to testing.","SP--Social Context
+SP--Analytical Tools
+SP--Professional Ethics
+SP--Intellectual Property
+SP--Privacy and Civil Liberties
+SP--Security Policies, Laws and Computer Crimes
+",SP
+Professional Development Seminar,"While the course covers Social and Professional Practice topics such as social context, analytical tools, professional ethics, intellectual property, privacy and civil liberties, this exemplar will focus on professional communications.
+The course provides opportunities for students to develop their professional communication skills. This exemplar includes examples of four Professional Communication outcomes:
+Write clear, concise, and accurate technical documents following well-defined standards for format and for including appropriate tables, figures, and references.
+Develop and deliver a good quality formal presentation.
+Plan interactions (e.g. virtual, face-to-face, shared documents) with others in which they are able to get their point across, and are also able to listen carefully and appreciate the points of others, even when they disagree, and are able to convey to others that they have heard.
+Describe the strengths and weaknesses of various forms of communication (e.g. virtual, face-to-face, shared documents)
+","SP--Professional Communication
+",SP
+The Digital Age,"The course provides both an introduction to a broad range of computer science topics and discussion of social and ethical issues. Topics vary according to faculty interest and current events.
+The technical topics for spring 2013 include: Algorithms & efficiency
+Data representation 
+Digital  logic 
+Computer organization 
+HTML
+Usability 
+Networks
+Programming in Python
+Discussion topics include: Ethics
+Software reliability 
+Digital data & copyright
+Software as intellectual property 
+Artificial intelligence
+Data mining 
+Privacy & security 
+Online education 
+Online voting 
+Energy
+","AL--Basic Analysis
+AL--Basic Automata Computability and Complexity
+AR--Digital logic and digital systems
+AR--Machine-level representation of data
+AR--Assembly level machine organization
+GV--Fundamental Concepts
+HCI--Foundations
+NC--Introduction
+NC--Networked Applications
+SDF--Algorithms and Design
+SDF--Fundamental Programming Concepts
+SP--Social Context
+SP--Analytical Tools
+SP--Professional Ethics
+SP--Intellectual Property
+SP--Privacy and Civil Liberties
+SP--Sustainability
+","AL
+AR
+GV
+HCI
+NC
+SDF
+SP"
+COS 126,"We take an interdisciplinary approach to the traditional CS1 curriculum, where we teach students to program while highlighting the role of computing in other disciplines, then take them through fundamental precepts of the field of computer science. This approach emphasizes for students the essential idea that mathematics, science, engineering, and computing are intertwined in the modern world, while at the same time preparing students to use computers effectively for applications in computer science, physics, biology, chemistry, engineering, and other disciplines.
+Instructors teaching students who have successfully completed this course can expect that they have the  knowledge and experience necessary to enable them to adapt to new computational environments and to effectively exploit computers in diverse applications. At the same time, students who choose to major in computer science get a broad background that prepares them for detailed studies in the field.
+Roughly, the first half of the course is about learning to program in a modern programming model, with applications. The second half of the course is a broad introduction to the field of computer science.
+Introduction to programming in Java. Elementary data types, control flow, conditionals and loops, and arrays.
+Input and output. Functions  and libraries.
+Analysis of algorithms, with an emphasis on using the scientific method to validate hypotheses about algorithm performance.
+Machine organization, instruction set architecture, machine language programming. Data types, APIs, encapsulation.
+Linked data structures, resizing arrays, and implementations of container types such as stacks and queues.
+Sorting (mergesort) and searching (binary search trees). Programming languages.
+Introduction to theory of computation. Regular expressions and finite automata. Universality and computability.
+Intractability.
+Logic design, combinational and sequential circuits. Processor and memory design.
+Introduction to artificial intelligence.","SDF--Algorithms and Design
+SDF--Fundamental Programming Concepts
+SDF--Fundamental Data Structures
+SDF--Development Methods
+PL--Object-Oriented programming
+PL--Basic Type Systems
+AL--Basic Analysis
+AL--Algorithmic Strategies
+AL--Fundamental Data Structures and Algorithms
+AL--Basic Automata, Computability and Complexity
+AL--Advanced Automata, Computability and Complexity
+AR--Architecture and Organization
+AR--Machine Representation of Data
+AR--Assembly level machine organization
+AR--Functional Organization
+CN--Fundamentals
+IS--Fundamental Issues
+SP--History
+","SDF
+PL
+AL
+AR
+CN
+IS
+SP"
+CSCI 0190,"The course is a compressed introduction into programming along with basic algorithms and data structures. It interleaves these two. The data structures cover lists, trees, queues, heaps, DAGs, and graphs; the algorithms go up through classic ones such as graph shortest paths and minimum spanning trees. The programming is done entirely with pure functions. It begins with graphical animations (such as simple video games), then higher-order   functional programming, and encodings of laziness.","AL--Advanced Data Structures, Algorithms, and Analysis
+PD--Parallelism Fundamentals
+PL--Object-Oriented Programming
+PL--Functional Programming
+PL--Event-Driven and Reactive Programming
+PL--Basic Type Systems
+SE--Software Design
+SE--Software Verification and Validation
+","AL
+PD
+PL
+SE"
+CSC 221,"This course provides an introduction to problem solving and programming using the Python scripting language. The specific goals of this course are:
+To develop problem solving and programming skills to enable the student to design solutions to non- trivial problems and implement those solutions in Python.
+To master the fundamental programming constructs of Python, including variables, expressions, functions, control structures, and lists.
+To build a foundation for more advanced programming techniques, including object-oriented design and the use of standard data structures (as taught in CSC 222).","SDF--Algorithms and Design
+SDF--Fundamental Programming Concepts
+SDF--Fundamental Data Structures
+SDF--Development Methods
+PL--Object-Oriented Programming
+PL--Basic Type Systems
+PL--Language Translation and Execution
+AL--Fundamental Data Structures and Algorithms
+SP--History
+","SDF
+PL
+AL
+SP"
+CSC 222,"Building upon basic programming skills in Python from CSC 221, this course focuses on the design and analysis of larger, more complex programs using the industry-leading language, Java. The specific goals of this course are:
+To know and use basic Java programming constructs for object-oriented problem solving (e.g., classes, polymorphism, inheritance, interfaces)
+To appreciate the role of algorithms and data structures in problem solving and software design (e.g., objected-oriented design, lists, files, searching and sorting)
+To be able to design and implement a Java program to model a real-world system, and subsequently analyze its behavior.
+To develop programming skills that can serve as a foundation for further study in computer science.","SDF--Algorithms and Design
+SDF--Fundamental Programming Concepts
+SDF--Fundamental Data Structures
+SDF--Development Methods
+PL--Object-Oriented Programming
+PL--Basic Type Systems
+AL--Basic Analysis
+AL--Fundamental Data Structures and Algorithms
+SE--Software Design
+SE--Software Construction
+SE--Software Verification and Validation
+","SDF
+PL
+AL
+SE"
+CSC 151,"This course introduces the discipline of computer science by focusing on functional problem solving with media computation as an integrating theme. In particular, the course explores
+mechanisms for representing, making, and manipulating images. The course considers a variety of models of images based on pixels, basic shapes, and objects that draw.
+The major objectives for this course include:
+Understanding some fundamentals of computer science: algorithms, data structures, and abstraction. Experience with the practice of computer programming (design, documentation, development, testing, and debugging) in a high-level language, Scheme.
+Learning problem solving from a functional programming perspective, including the use of recursion and higher-order procedures.
+Sharpening general problem solving, teamwork, and study skills.
+Fundamentals of functional problem-solving using a high-level functional language
+abstraction
+modularity
+recursion, including helper procedures
+higher-order procedures
+analyzing of algorithms
+Language elements
+symbols
+data types
+conditionals
+procedures and parameters
+local procedures
+scope and binding
+Data types and structures
+primitive types
+lists
+pairs, pair structures, and association lists
+trees
+raster graphics and RGB colors
+objects in Scheme
+Algorithms
+searching
+sorting
+transforming colors and images
+Software development
+design
+documentation
+development
+testing, including unit testing
+debugging","AL--Fundamental Data Structures and Algorithms
+AL--Algorithmic Strategies
+GV--Fundamental Concepts
+HCI--Designing Interaction
+PL--Object-oriented Programming
+PL--Type Systems
+PL--Language Translation and Execution
+SDF--Algorithms and Design
+SDF--Fundamental Programming Concepts
+SDF--Fundamental Structures
+SE--Software Verification and Validation
+","AL
+GV
+HCI
+PL
+SDF
+SE"
+CSC 161,"This course utilizes robotics as an application domain in studying imperative problem solving, data representation, and memory management. Additional topics include assertions and invariants, data abstraction, linked data structures, an introduction to the GNU/Linux operating system, and programming the low-level, imperative language C.
+This course explores elements of computing that have reasonably close ties to the architecture of computers, compilers, and operating systems. The course takes an imperative view of problem solving, supported by programming in the C programming language. Some topics include:
+imperative problem solving: top-down design, common algorithms, assertions, invariants
+C programming: syntax and semantics, control structures, functions, parameters, macro processing, compiling, linking, program organization
+concepts with data: data abstraction, integer and floating-point representation, string representation, arrays, unions, structures, linked list data structures, stacks, and queues
+machine-level issues: data representation, pointers, memory management
+GNU/Linux operating system: commands, bash scripts, software development tools","AL--Fundamental Data Structures and Algorithms
+AR--Machine level representation of data
+CN--Fundamentals
+IAS--Fundamental Concepts
+IS--Robotics
+PL--Type Systems
+PL--Program Representation
+PL--Language Translation and Execution
+SDF--Algorithms and Design
+SDF--Fundamental Programming Concepts
+SDF--Fundamental Structures
+SDF--Development Methods
+SE--Tools and Environments
+SE--Software Design
+SE--Software Verification and Validation
+SP--Social Context
+SP--Professional Communication
+","AL
+AR
+CN
+IAS
+IS
+PL
+SDF
+SE
+SP"
+CSC 207,"CSC 207, Algorithms and Object-Oriented Design, explores object-oriented problem solving using the Java programming language. Topics covered include principles of object-oriented design and problem solving, abstract data types and encapsulation, data structures, algorithms, algorithmic analysis, elements of Java programming, and an integrated development environment (IDE) (e.g., Eclipse).
+Principles of object-oriented design and problem solving 
+Objects and classes
+Encapsulation, abstraction, and information hiding 
+Inheritance
+Polymorphism 
+Unit testing 
+Integration testing
+Abstract data types, data structures, and algorithms
+Dictionaries 
+Hash tables
+Binary search trees 
+Priority queues 
+Heaps
+Algorithmic analysis
+Upper-bound efficiency analysis; Big-O Notation
+Comparison of results for small and large data sets 
+Introduction of tight-bound analysis (Big-
+Elements of Java programming
+Basic syntax and semantics 
+Interfaces and classes 
+Exceptions
+Strings
+Arrays, ArrayLists, vectors 
+Comparators; sorting 
+Generics
+Java type system 
+Iterators
+Introduction to the Java class library
+An integrated development environment (IDE) (e.g., Eclipse)","AL--Basic Analysis
+AL--Algorithmic Strategies
+AL--Fundamental Data Structures and Algorithms
+CN--Fundamentals
+PL--Object-Oriented Programming
+PL--Type Systems
+PL--Language Translation and Execution
+SDF--Algorithms and Design
+SDF--Fundamental Programming Concepts
+SDF--Fundamental Structures
+SDF--Development Methods
+SE--Software Design
+SE--Software Construction
+SE--Software Verification and Validation
+SF--Resource Allocation and Scheduling
+SP--Professional Ethics
+","AL
+CN
+PL
+SDF
+SE
+SF
+SP"
+COSC 1436,"Introduces the fundamental concepts of structured and object-oriented programming, and provides a comprehensive introduction to programming for computer science and technology majors. Includes topics on software development methodology, data types, control structures, functions, arrays, and the mechanics of running, testing, and debugging. This course assumes computer literacy",,"AL
+IAS
+GV
+HCI
+IM
+NC
+OS
+PL
+SDF
+SE
+SP"
+COSC 1437,"Focuses on the object-oriented programming paradigm, emphasizing the definition and use of classes along with fundamentals of object-oriented design. Includes basic analysis of algorithms, searching and sorting techniques, and an introduction to software engineering processes. Students will apply techniques for testing and debugging software. (This course is included in the Field of Study Curriculum for Computer Science.)",,"AL
+AR
+IAS
+DS
+GV
+HCI
+IM
+OS
+PL
+SDF
+SE
+SP"
+COSC 2336,"Provides further applications of programming techniques, introducing the fundamental concepts of data structures and algorithms. Includes topics on recursion, fundamental data structures (including stacks, queues, linked lists, hash tables, trees, and graphs), and algorithmic analysis.",,"AL
+CN
+IAS
+DS
+GV
+HCI
+IM
+NC
+OS
+PL
+SDF
+SE
+SP"
+COSC 2426,"Provides basic computer organization; machine cycle and digital representation of data and instructions; assembly language programming, assembler, loader, macros, subroutines, and program linkage.",,"AR
+IAS
+DS
+HCI
+IM
+OS
+PD
+SDF
+SE
+SF
+SP"
+INF 120,"An elementary introduction to programming for those with no previous programming experience. Emphasis on understanding of algorithm development, procedural and object-oriented sofware development, secure coding, testing, and execution of program.",,"AL
+AR
+IAS
+HCI
+PL
+SDF
+SE
+SP"
+INF 260,"Object-oriented programming concepts and practice: types, decisions, loops, methods, arrays, classes; design and problem-solving. An intensive introduction intended for students with programming experience. Includes secure coding and data structures.",,"AL
+IAS
+GV
+HCI
+PD
+PL
+SDF
+SE
+SF
+SP"
+INF 282,"Core concepts for the design, creation, and manipulation of relational databases. Analysis of data requirements, conceptual modeling, definition of the relational model, relational database design and normalization, and database implementation; manipulation of relational databases using relational algebra with SQL.",,"IM
+SP"
+CIT 120,"Promotes understanding of computer programming and logic by teaching students to “think like a computer”. Covers skills needed to develop and design language-independent solutions to solve computer-related problems. Covers development and design basics including use of variables, control and data structures, and principles of command-line and object-oriented languages.",,"AL
+AR
+GV
+HCI
+IM
+PL
+SDF
+SP"
+CIT 111,"Presents a practical view of computer hardware and client operating systems. Covers computer hardware components; troubleshooting, repair, and maintenance; operating system interfaces and management tools; networking components; computer security; and operational procedures.",,"AR
+IAS
+NC
+OS
+SP"
+CS 115,"Covers the basics of solving problems by computers. Emphasis is placed on how to design computer solutions, and then implement these designs using the C++ programming language. Important programming concepts such as data structures, control structures, top-down program design, program debugging, and program testing are covered.",,"AL
+AR
+IAS
+PL
+SDF
+SE"
+CS 215,"Covers basic data types, data structures and basic algorithm design and analysis techniques including recursion. Advanced programming skills in an object-oriented programming language is the goal. Students will also become familiar with basic software engineering methodology.",,"AL
+AR
+IAS
+OS
+PL
+SDF
+SE"
+CS 216,"Implementation of large programming projects using object-oriented design techniques and software tools in a modern development environment. Software engineering topics to include: life cycles, metrics, requirements specifications, design methodologies, validation and verification, testing, reliability and project planning.",,"AR
+CN
+IAS
+HCI
+PD
+PL
+SDF
+SE"
+CS 275,"Topics in Discrete Mathematics aimed at application in Computer Science. Fundamental principles: set theory, induction, relations, functions, Boolean algebra. Techniques of counting: permutations, combinations, recurrences, algorithms to generate them. Introduction to graphs and trees.",,"AL
+AR
+IAS
+DS"
+CS 270,"This course provides an introduction to computer systems and explores computer architecture, operating systems, and networks from a programmer’s perspective. The course also introduces advanced programming and debugging tools. Topics include hardware instruction sets, machine language and C language program representations, linking/loading, operating systems (process management, scheduling, memory management, interprocess communication, and file systems), network programming (socket programming and web protocols), and common security attacks and solutions.",,"NC
+OS
+PD
+SF"
+EGR 101,"Introduces students to the engineering and computer science professions, College of Engineering degree programs, and opportunities for career path exploration. Topics and assignments include study skills, team development, ethics, problem solving and basic engineering tools for modeling, analysis and visualization.",,"SE
+SP"
+ITCS1010,"This course provides an introduction to problem-solving techniques, the steps of the program development cycle, and fundamental skills needed for programming in any computer language.Students will develop logic plans and create programs using core programming instructions to solve a variety of problems and will use one or more programming languages to gain experience with the complete program development process. The course includes an introduction to object-oriented and event-driven programming, and to the IDE (Integrated Development Environment).",,"PL
+SDF"
+ITON1011,"This course provides a historical perspective and an overview of operating systems significant to the development of microcomputer. Students will study vocabulary, usage, and basic functionality of a wide variety of previous and current versions.",,"AR
+IAS
+OS
+SF
+SP"
+ITCS1870,"This course introduces students to the Python programming language. Students will write procedural and object-oriented applications. Student programs will include arithmetic operations, strings, functions, decisions and loops, and object-oriented constructs.",,"AL
+AR
+IAS
+IM
+PL
+SDF
+SP"
+ITCS1820,"This course provides an introduction to application development, object-oriented programming, and the Java development system. Students will write object-oriented Java applications and applets using methods, variables, operators, strings, arrays, loops, selection statements, classes, inheritance, and encapsulation.",,"AR
+IAS
+IM
+PL
+SDF
+SP"
+ITCS2080,"This course introduces the basic principles and concepts of software engineering and provides the necessary foundation for subsequent SE courses at the upper division level. Topics include: basic terminology and concepts of software engineering; system requirements, modeling, and testing; object oriented analysis and design using UML; frameworks and APIs; client-server architecture; user interface technology; and the analysis, design, and programming of simple servers and clients.",,"IAS
+IM
+PD
+PL
+SDF
+SE
+SP"
+ITCS2870,"This traditional computer science course introduces students to advanced data structure concepts including objects and inheritance, algorithm analysis, recursion, stacks, queues, lists, randomization, trees, sorting and searching, hash tables, and graphs and paths.",,"AL
+IAS
+DS
+PL
+SDF
+SP"
+ITCS2012,"This course provides an introduction to the foundations of discrete mathematics as they apply to computer science, and focuses on providing a solid theoretical foundation for further work. Topics include logic, set algebra, equivalence relations and partitions, functions, mathematical induction, cardinality, recurrence relations, basic combinatorial methods, and trees and graphs; with an emphasis on applications in computer science.",,"AL
+DS"
+ITCS2875,"This course provides a study of the principles of Von Neumann computer architecture, data representation, and memory addressing as well as processor organization and its impact on system and application software. It also includes discussion and utilization of assembly language and computer processor simulators.",,"AL
+AR
+IAS
+OS
+SDF
+SF
+SP"
+ITDB1400,"This course provides an introduction to SQL (Structured Query Language) to create and maintain database objects, manipulate data, and to produce readable output displays and reports. Students will use the Oracle relational database management system along with DDL (Data Definition Language), DML (Data Manipulation Language), and SQL*Plus format commands. This course and ITDB 1405 Introduction to Oracle SQL/PL help students prepare for the Introduction to Oracle: SQL and PL/SQL certification exam. Although it is not a prerequisite for this course, students may benefit from taking a programming course prior to taking this course.",,IM
+ITON1205,"This course provides an introduction to local area networking concepts including current networking technology for LANs and WANs (Local and Wide Area Networks), and the Internet. It also helps students prepare for CompTIA's Network+ certification.",,"NC
+SP"
