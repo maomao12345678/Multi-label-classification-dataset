@@ -1,1 +1,11 @@
 # Multi-label-classification-dataset
+
+数据集说明：
+
+1.cs2013_raw_dataset：本数据集是基于CS2013课程标准的数据集，包含CS2013课程标准中专家打标签的80个样本课程数据和从CS2013官网收集的25个样本课程数据，共105个课程数据。
+
+2.multi_standard_dataset：本数据集是基于多课程标准扩充的数据集，课程标准包括：CS2013、CE2004、CE2016、SE2004、SE2014、IT2008、IT2014和IT2017，以CS2013为基准，一共500个课程数据。
+
+3.cs2013_fine_tunning_dataset：本数据集是基于cs2013_raw_dataset数据集通过微调ChatGPT大模型得到的数据集，以CS2013为基准，一共2070个课程数据。
+
+4.multi_standard_fine_tunning_dataset：本数据集是基于multi_standard_dataset数据集通过微调ChatGPT大模型得到的数据集，以CS2013为基准，一共2067个课程数据。
